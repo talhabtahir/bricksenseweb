@@ -828,6 +828,23 @@
 			max-width: 80% !important;   /* shrink the wrapper on phones */
 		  }
 		}
+		/* --- Mobile Fix for Phone Overflow --- */
+		@media (max-width: 768px) {
+		  /* Make BeeFree containers shrink instead of overflow */
+		  .bee-row,
+		  .bee-col,
+		  .bee-fixedwidth {
+		    max-width: 100% !important;
+		    width: 100% !important;
+		    box-sizing: border-box;
+		  }
+		
+		  /* Scale the phone image */
+		  .phone-img {
+		    max-width: 80% !important;  /* proportional on mobile */
+		    height: auto;
+		  }
+		}
 
 
 
