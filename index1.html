@@ -2,14 +2,14 @@
 <html lang="">
 
 <head>
-	<title>Brick Sense</title>
+	<title></title>
 	<meta content="summary_large_image" name="twitter:card" />
 	<meta content="website" property="og:type" />
-	<meta content="an AI-powered tool that helps builders, engineers, and suppliers quickly assess brick quality and wall conditions without complicated lab tests." property="og:description" />
+	<meta content="" property="og:description" />
 	<meta content="" property="og:url" />
-	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1448595/1435377/2478808/13313180_large.jpg" property="og:image" />
-	<meta content="Brick Sense" property="og:title" />
-	<meta content="an AI-powered tool that helps builders, engineers, and suppliers quickly assess brick quality and wall conditions without complicated lab tests." name="description" />
+	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1448919/1435702/2479263/13316542_large.jpg" property="og:image" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
 	<meta charset="utf-8" />
 	<meta content="width=device-width" name="viewport" />
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css" />
@@ -19,25 +19,18 @@
 			position: relative
 		}
 
-		.bee-button-content {
+		.bee-button-content,
+		.bee-row-11 .bee-col-1 .bee-block-2,
+		.bee-row-11 .bee-col-1 .bee-block-2 .bee-button-container {
 			text-align: center
 		}
 
-		.bee-menu .bee-hamburger-controls span,
-		.bee-row-1,
-		.bee-row-2,
-		.bee-row-3 {
-			background-repeat: no-repeat
-		}
-
 		body {
-			background-color: transparent;
+			background-color: #ffffff;
 			color: #000000;
 			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-2 a,
-		.bee-row-9 .bee-col-3 .bee-block-2 a,
 		a {
 			color: #7747FF
 		}
@@ -58,7 +51,7 @@
 		}
 
 		.bee-row-content {
-			max-width: 1280px;
+			max-width: 1270px;
 			margin: 0 auto;
 			display: flex
 		}
@@ -92,6 +85,8 @@
 			flex-basis: 50%
 		}
 
+		.bee-row-11 .bee-col-1 .bee-block-2 div.label:not(.inline),
+		.bee-row-11 .bee-col-1 .bee-block-2 label:not(.inline),
 		.bee-row-content .bee-col-w12 {
 			flex-basis: 100%
 		}
@@ -102,29 +97,56 @@
 			text-decoration: none
 		}
 
+		.bee-divider,
 		.bee-image {
 			overflow: auto
 		}
 
+		.bee-divider .center,
 		.bee-image .bee-center {
 			margin: 0 auto
 		}
 
-		.bee-row-4 .bee-col-3 .bee-block-1 {
+		.bee-row-11 .bee-col-1 .bee-block-2 .bee-form-row:not(.bee-sidelabel) input:not([type=checkbox]):not([type=radio]),
+		.bee-row-11 .bee-col-3 .bee-block-1 {
 			width: 100%
 		}
 
-		.bee-row-2 .bee-col-2 .bee-block-3 a,
-		.bee-row-4 .bee-col-1 .bee-block-6 div,
-		.bee-row-5 .bee-col-2 .bee-block-5 a,
-		.bee-row-7 .bee-col-2 .bee-block-5 a {
-			background-color: #a6a6a6;
-			border-bottom: 1px solid #be1e2d;
-			border-left: 1px solid #be1e2d;
-			border-right: 1px solid #be1e2d;
-			border-top: 1px solid #be1e2d;
-			width: auto;
+		.bee-form .bee-form-row .bee-field {
+			padding: 3px;
+			display: flex;
+			flex: 1;
+			flex-wrap: wrap;
+			align-items: center
+		}
+
+		.bee-form .bee-form-row .bee-field input:not([type=checkbox]):not([type=radio]) {
+			flex-grow: 1;
+			font-family: inherit;
+			font-size: inherit
+		}
+
+		.bee-form .bee-form-row .bee-field input[type=checkbox]:not(:first-of-type) {
+			margin-left: 15px
+		}
+
+		.bee-form .bee-form-row .bee-field button {
+			font-family: inherit;
+			font-size: inherit;
+			cursor: pointer
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 h1,
+		.bee-row-2 .bee-col-2 .bee-block-2 h1 {
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
 			direction: ltr
+		}
+
+		.bee-form .bee-form-row .bee-field .bee-button-container {
+			flex-grow: 1
 		}
 
 		.bee-icon {
@@ -154,6 +176,7 @@
 			top: 50%;
 			left: 50%;
 			background-size: 100%;
+			background-repeat: no-repeat;
 			transition: .12s ease-in-out
 		}
 
@@ -175,11 +198,26 @@
 			max-height: 32px
 		}
 
+		.bee-row-1,
+		.bee-row-11,
+		.bee-row-13,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-5,
+		.bee-row-6 {
+			background-repeat: no-repeat
+		}
+
 		.bee-row-1 .bee-row-content,
+		.bee-row-10 .bee-row-content,
+		.bee-row-11 .bee-row-content,
+		.bee-row-12 .bee-row-content,
+		.bee-row-14 .bee-row-content,
+		.bee-row-17 .bee-row-content,
+		.bee-row-18 .bee-row-content,
 		.bee-row-3 .bee-row-content,
 		.bee-row-5 .bee-row-content,
 		.bee-row-7 .bee-row-content,
-		.bee-row-8 .bee-row-content,
 		.bee-row-9 .bee-row-content {
 			background-repeat: no-repeat;
 			border-radius: 0;
@@ -188,9 +226,9 @@
 
 		.bee-row-1 .bee-col-1,
 		.bee-row-1 .bee-col-2,
-		.bee-row-4 .bee-col-1,
-		.bee-row-4 .bee-col-2,
-		.bee-row-4 .bee-col-3 {
+		.bee-row-6 .bee-col-1,
+		.bee-row-6 .bee-col-2,
+		.bee-row-6 .bee-col-3 {
 			padding-bottom: 5px;
 			padding-top: 5px;
 			display: flex;
@@ -198,33 +236,31 @@
 			justify-content: center
 		}
 
-		.bee-row-1 .bee-col-1 .bee-block-1 {
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-3 .bee-block-1 {
 			padding: 10px;
 			width: 100%
 		}
 
 		.bee-row-1 .bee-col-2 .bee-block-1 {
-			color: #be1e2d;
+			color: #101112;
 			font-family: 'Fira Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 			font-size: 16px;
-			font-weight: 400;
+			font-weight: 500;
+			padding: 10px;
 			text-align: right
 		}
 
 		.bee-row-2 {
 			background-color: #1d4ed8;
-			background-image: url('https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/6y1/abl/rki/Untitled%20design%20%283%29.png');
+			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bg_bank.jpg');
+			background-repeat: no-repeat;
 			background-size: cover
 		}
 
-		.bee-row-2 .bee-row-content,
-		.bee-row-4,
-		.bee-row-4 .bee-row-content {
-			background-size: auto;
-			background-repeat: no-repeat
-		}
-
 		.bee-row-2 .bee-row-content {
+			background-repeat: no-repeat;
+			background-size: auto;
 			color: #000000;
 			padding-top: 30px
 		}
@@ -242,79 +278,180 @@
 		}
 
 		.bee-row-2 .bee-col-2 .bee-block-2 {
-			padding: 10px 10px 25px
-		}
-
-		.bee-row-2 .bee-col-2 .bee-block-3 {
-			padding: 10px;
-			text-align: center
-		}
-
-		.bee-row-2 .bee-col-2 .bee-block-4 {
+			padding-bottom: 10px;
+			padding-left: 10px;
 			padding-right: 10px;
-			width: 100%
-		}
-
-		.bee-row-10 .bee-col-1,
-		.bee-row-2 .bee-col-3,
-		.bee-row-3 .bee-col-1,
-		.bee-row-5 .bee-col-1,
-		.bee-row-5 .bee-col-2,
-		.bee-row-5 .bee-col-3,
-		.bee-row-7 .bee-col-1,
-		.bee-row-7 .bee-col-2,
-		.bee-row-7 .bee-col-3,
-		.bee-row-8 .bee-col-1,
-		.bee-row-9 .bee-col-1,
-		.bee-row-9 .bee-col-2 {
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.bee-row-4 {
-			background-color: #fafafa
-		}
-
-		.bee-row-4 .bee-row-content {
-			background-color: #ffffff;
-			border-radius: 0;
-			color: #000000
-		}
-
-		.bee-row-4 .bee-col-1 .bee-block-1 {
-			padding: 10px 10px 15px 30px;
 			text-align: center;
 			width: 100%
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2 {
-			padding: 5px 10px 10px 35px
+		.bee-row-2 .bee-col-2 .bee-block-3 {
+			padding: 10px 10px 25px
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-3,
+		.bee-row-13 .bee-col-1 .bee-block-11,
+		.bee-row-13 .bee-col-2 .bee-block-12,
+		.bee-row-13 .bee-col-3 .bee-block-11,
+		.bee-row-2 .bee-col-2 .bee-block-4,
 		.bee-row-4 .bee-col-1 .bee-block-4,
-		.bee-row-4 .bee-col-1 .bee-block-5 {
+		.bee-row-4 .bee-col-2 .bee-block-4,
+		.bee-row-4 .bee-col-3 .bee-block-4,
+		.bee-row-9 .bee-col-1 .bee-block-2 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-5 {
+			padding-top: 15px;
+			width: 100%
+		}
+
+		.bee-row-10 .bee-col-1,
+		.bee-row-10 .bee-col-2,
+		.bee-row-10 .bee-col-3,
+		.bee-row-12 .bee-col-1,
+		.bee-row-12 .bee-col-2,
+		.bee-row-12 .bee-col-3,
+		.bee-row-14 .bee-col-1,
+		.bee-row-14 .bee-col-2,
+		.bee-row-14 .bee-col-3,
+		.bee-row-17 .bee-col-1,
+		.bee-row-18 .bee-col-1,
+		.bee-row-19 .bee-col-4,
+		.bee-row-2 .bee-col-3,
+		.bee-row-20 .bee-col-1,
+		.bee-row-3 .bee-col-1,
+		.bee-row-3 .bee-col-2,
+		.bee-row-3 .bee-col-3,
+		.bee-row-5 .bee-col-1,
+		.bee-row-7 .bee-col-1,
+		.bee-row-7 .bee-col-2,
+		.bee-row-7 .bee-col-3,
+		.bee-row-9 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-2,
+		.bee-row-11 .bee-col-1 .bee-block-1,
+		.bee-row-12 .bee-col-2 .bee-block-2,
+		.bee-row-14 .bee-col-2 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-2,
+		.bee-row-7 .bee-col-2 .bee-block-3 {
+			padding: 10px 10px 5px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li,
+		.bee-row-10 .bee-col-2 .bee-block-3,
+		.bee-row-12 .bee-col-2 .bee-block-3,
+		.bee-row-14 .bee-col-2 .bee-block-4,
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-7 .bee-col-2 .bee-block-4 {
+			padding: 15px
+		}
+
+		.bee-row-4 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 10px;
+			padding-top: 10px
+		}
+
+		.bee-row-4 .bee-col-1 {
+			border-bottom: 2px solid #005ae2;
+			border-left: 2px solid #005ae2;
+			border-right: 2px solid #005ae2;
+			border-top: 2px solid #005ae2;
+			padding: 5px;
+			border-radius: 8px
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-1,
+		.bee-row-13 .bee-col-1 .bee-block-4,
+		.bee-row-13 .bee-col-2 .bee-block-2,
+		.bee-row-13 .bee-col-2 .bee-block-5,
+		.bee-row-13 .bee-col-3 .bee-block-1,
+		.bee-row-13 .bee-col-3 .bee-block-4,
+		.bee-row-4 .bee-col-1 .bee-block-1,
+		.bee-row-4 .bee-col-1 .bee-block-2,
+		.bee-row-4 .bee-col-2 .bee-block-1,
+		.bee-row-4 .bee-col-2 .bee-block-2,
+		.bee-row-4 .bee-col-3 .bee-block-1,
+		.bee-row-4 .bee-col-3 .bee-block-2 {
+			padding: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-3,
+		.bee-row-13 .bee-col-2 .bee-block-4,
+		.bee-row-13 .bee-col-3 .bee-block-3,
+		.bee-row-4 .bee-col-1 .bee-block-3,
+		.bee-row-4 .bee-col-2 .bee-block-3,
+		.bee-row-4 .bee-col-3 .bee-block-3 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px
+		}
+
+		.bee-row-4 .bee-col-2,
+		.bee-row-4 .bee-col-3 {
+			border-bottom: 2px solid #e7e2e2;
+			border-left: 2px solid #e7e2e2;
+			border-right: 2px solid #e7e2e2;
+			border-top: 2px solid #e7e2e2;
+			padding: 5px;
+			border-radius: 8px
+		}
+
+		.bee-row-6 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 60px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 {
+			padding: 10px 10px 15px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2 {
+			padding: 5px 10px 10px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-3,
+		.bee-row-6 .bee-col-1 .bee-block-4,
+		.bee-row-6 .bee-col-1 .bee-block-5 {
 			color: #000000;
 			font-family: inherit;
 			font-size: 18px;
 			font-weight: 400;
-			padding: 5px 5px 5px 30px;
+			padding: 5px;
 			text-align: left
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-6 {
-			padding: 20px 10px 10px 40px;
+		.bee-row-6 .bee-col-1 .bee-block-6 {
+			padding: 20px 10px 10px;
 			text-align: left
 		}
 
-		.bee-row-5,
-		.bee-row-6,
-		.bee-row-7 {
-			background-color: #bababa;
+		.bee-row-14,
+		.bee-row-15,
+		.bee-row-16,
+		.bee-row-17,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-color: #edf4fe;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-5 .bee-col-2 .bee-block-2,
+		.bee-row-14 .bee-col-2 .bee-block-2,
 		.bee-row-7 .bee-col-2 .bee-block-2 {
 			color: #000000;
 			font-family: inherit;
@@ -323,22 +460,15 @@
 			text-align: center
 		}
 
-		.bee-row-5 .bee-col-2 .bee-block-3 {
-			padding: 10px 10px 5px;
-			text-align: center;
-			width: 100%
-		}
-
-		.bee-row-5 .bee-col-2 .bee-block-4 {
-			padding: 35px 20px 20px
-		}
-
-		.bee-row-5 .bee-col-2 .bee-block-5 {
-			padding: 30px 10px 35px;
+		.bee-row-14 .bee-col-2 .bee-block-5,
+		.bee-row-7 .bee-col-2 .bee-block-5 {
+			padding: 10px 10px 35px;
 			text-align: center
 		}
 
-		.bee-row-6 .bee-row-content {
+		.bee-row-15 .bee-row-content,
+		.bee-row-16 .bee-row-content,
+		.bee-row-8 .bee-row-content {
 			background-repeat: no-repeat;
 			border-radius: 9px;
 			color: #000000;
@@ -346,10 +476,14 @@
 			padding-top: 15px
 		}
 
-		.bee-row-6 .bee-col-1,
-		.bee-row-6 .bee-col-2,
-		.bee-row-6 .bee-col-3,
-		.bee-row-6 .bee-col-4 {
+		.bee-row-15 .bee-col-1,
+		.bee-row-15 .bee-col-2,
+		.bee-row-15 .bee-col-3,
+		.bee-row-15 .bee-col-4,
+		.bee-row-8 .bee-col-1,
+		.bee-row-8 .bee-col-2,
+		.bee-row-8 .bee-col-3,
+		.bee-row-8 .bee-col-4 {
 			background-color: #ffffff;
 			padding: 5px;
 			display: flex;
@@ -358,84 +492,258 @@
 			border-radius: 15px
 		}
 
-		.bee-row-6 .bee-col-1 .bee-block-1,
-		.bee-row-6 .bee-col-2 .bee-block-1,
-		.bee-row-6 .bee-col-3 .bee-block-1,
-		.bee-row-6 .bee-col-4 .bee-block-1 {
+		.bee-row-15 .bee-col-1 .bee-block-2,
+		.bee-row-15 .bee-col-3 .bee-block-2,
+		.bee-row-15 .bee-col-4 .bee-block-2,
+		.bee-row-8 .bee-col-1 .bee-block-1,
+		.bee-row-8 .bee-col-2 .bee-block-1,
+		.bee-row-8 .bee-col-3 .bee-block-1,
+		.bee-row-8 .bee-col-4 .bee-block-1 {
 			padding: 25px 10px 10px;
 			text-align: center;
 			width: 100%
 		}
 
-		.bee-row-6 .bee-col-1 .bee-block-2,
-		.bee-row-6 .bee-col-2 .bee-block-2,
-		.bee-row-6 .bee-col-3 .bee-block-2,
-		.bee-row-6 .bee-col-4 .bee-block-2 {
+		.bee-row-15 .bee-col-1 .bee-block-3,
+		.bee-row-15 .bee-col-2 .bee-block-3,
+		.bee-row-15 .bee-col-3 .bee-block-3,
+		.bee-row-15 .bee-col-4 .bee-block-3,
+		.bee-row-8 .bee-col-1 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-3 .bee-block-2,
+		.bee-row-8 .bee-col-4 .bee-block-2 {
 			padding: 5px 10px 25px
 		}
 
-		.bee-row-7 .bee-col-2 .bee-block-3 {
-			padding: 15px 10px 5px;
-			text-align: center;
-			width: 100%
-		}
-
-		.bee-row-7 .bee-col-2 .bee-block-4 {
-			padding: 25px 15px 15px
-		}
-
-		.bee-row-7 .bee-col-2 .bee-block-5 {
-			padding: 20px 10px 35px;
-			text-align: center
-		}
-
-		.bee-row-8,
-		.bee-row-9 {
-			background-color: #000000;
-			background-repeat: no-repeat
-		}
-
-		.bee-row-9 .bee-col-1 .bee-block-1 {
-			padding-left: 10px;
-			width: 100%
-		}
-
-		.bee-row-9 .bee-col-1 .bee-block-2 {
-			padding: 5px 10px 10px 15px
-		}
-
-		.bee-row-9 .bee-col-3 {
-			background-color: #000000;
-			border-bottom: 0 solid #000000;
-			border-left: 0 solid #000000;
-			border-right: 0px solid #000000;
-			border-top: 0 solid #000000;
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.bee-row-9 .bee-col-3 .bee-block-1 {
-			padding-right: 10px;
-			text-align: center;
-			width: 100%
-		}
-
-		.bee-row-9 .bee-col-3 .bee-block-3 {
-			padding-right: 10px;
-			text-align: right
-		}
-
-		.bee-row-10 {
+		.bee-row-10,
+		.bee-row-12,
+		.bee-row-20 {
 			background-color: #ffffff;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-10 .bee-row-content {
+		.bee-row-11 .bee-col-1 {
+			background-color: #ffffff;
+			border-bottom: 0 solid #ebebeb;
+			border-left: 0 solid #ebebeb;
+			border-right: 0px solid #ebebeb;
+			border-top: 0 solid #ebebeb;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 15px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 {
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			padding: 10px
+		}
+
+		.bee-row-11 .bee-col-2,
+		.bee-row-11 .bee-col-3 {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 15px
+		}
+
+		.bee-row-13 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 60px;
+			padding-top: 10px
+		}
+
+		.bee-row-13 .bee-col-1,
+		.bee-row-13 .bee-col-3 {
+			border-bottom: 2px solid #e7e2e2;
+			border-left: 2px solid #e7e2e2;
+			border-right: 2px solid #e7e2e2;
+			border-top: 2px solid #e7e2e2;
+			padding: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 8px
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-2,
+		.bee-row-13 .bee-col-2 .bee-block-3,
+		.bee-row-13 .bee-col-3 .bee-block-2 {
+			padding: 5px 10px 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-10,
+		.bee-row-13 .bee-col-1 .bee-block-6,
+		.bee-row-13 .bee-col-1 .bee-block-7,
+		.bee-row-13 .bee-col-1 .bee-block-8,
+		.bee-row-13 .bee-col-1 .bee-block-9,
+		.bee-row-13 .bee-col-2 .bee-block-10,
+		.bee-row-13 .bee-col-2 .bee-block-11,
+		.bee-row-13 .bee-col-2 .bee-block-7,
+		.bee-row-13 .bee-col-2 .bee-block-8,
+		.bee-row-13 .bee-col-2 .bee-block-9,
+		.bee-row-13 .bee-col-3 .bee-block-10,
+		.bee-row-13 .bee-col-3 .bee-block-6,
+		.bee-row-13 .bee-col-3 .bee-block-7,
+		.bee-row-13 .bee-col-3 .bee-block-8,
+		.bee-row-13 .bee-col-3 .bee-block-9 {
+			color: #000000;
+			font-family: inherit;
+			font-size: 15px;
+			font-weight: 400;
+			padding: 5px;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-2 {
+			border-bottom: 4px solid #005ae2;
+			border-left: 2px solid #005ae2;
+			border-right: 4px solid #005ae2;
+			border-top: 2px solid #005ae2;
+			padding: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 8px
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-1 {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			text-align: center
+		}
+
+		.bee-row-15 .bee-col-1 .bee-block-1,
+		.bee-row-15 .bee-col-2 .bee-block-1,
+		.bee-row-15 .bee-col-3 .bee-block-1,
+		.bee-row-15 .bee-col-4 .bee-block-1 {
+			padding: 20px 15px 15px;
+			width: 100%
+		}
+
+		.bee-row-15 .bee-col-2 .bee-block-2 {
+			padding: 15px 10px 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-16 .bee-col-1,
+		.bee-row-16 .bee-col-2,
+		.bee-row-16 .bee-col-3 {
+			background-color: #ffffff;
+			padding: 5px;
+			border-radius: 15px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-1,
+		.bee-row-16 .bee-col-2 .bee-block-1,
+		.bee-row-16 .bee-col-3 .bee-block-1 {
+			padding: 20px 10px 10px;
+			width: 100%
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-2,
+		.bee-row-16 .bee-col-2 .bee-block-2,
+		.bee-row-16 .bee-col-3 .bee-block-2 {
+			padding: 5px 10px 20px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-3,
+		.bee-row-16 .bee-col-2 .bee-block-3,
+		.bee-row-16 .bee-col-3 .bee-block-3 {
+			padding: 10px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-4,
+		.bee-row-16 .bee-col-2 .bee-block-4,
+		.bee-row-16 .bee-col-3 .bee-block-4 {
+			padding: 20px 10px 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-5,
+		.bee-row-16 .bee-col-2 .bee-block-5,
+		.bee-row-16 .bee-col-3 .bee-block-5 {
+			padding-bottom: 20px;
+			padding-left: 10px;
+			padding-right: 10px
+		}
+
+		.bee-row-18,
+		.bee-row-19 {
+			background-color: #121722;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-19 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 15px
+		}
+
+		.bee-row-19 .bee-col-1,
+		.bee-row-19 .bee-col-2 {
+			padding: 30px 10px 30px 20px
+		}
+
+		.bee-row-19 .bee-col-1 .bee-block-1 {
+			padding: 5px 10px 10px;
+			width: 100%
+		}
+
+		.bee-row-19 .bee-col-1 .bee-block-2 {
+			padding-top: 10px
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-1,
+		.bee-row-19 .bee-col-2 .bee-block-2 li,
+		.bee-row-19 .bee-col-3 .bee-block-1,
+		.bee-row-19 .bee-col-3 .bee-block-2 li,
+		.bee-row-19 .bee-col-4 .bee-block-1,
+		.bee-row-19 .bee-col-4 .bee-block-2 li {
+			padding-bottom: 10px
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-2,
+		.bee-row-19 .bee-col-3 .bee-block-2,
+		.bee-row-19 .bee-col-4 .bee-block-2 {
+			color: #d1d5db;
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: left
+		}
+
+		.bee-row-19 .bee-col-3 {
+			padding-bottom: 30px;
+			padding-right: 20px;
+			padding-top: 30px
+		}
+
+		.bee-row-19 .bee-col-4 .bee-block-3 {
+			padding-top: 10px;
+			text-align: left
+		}
+
+		.bee-row-20 .bee-row-content {
+			background-color: #ffffff;
 			background-repeat: no-repeat;
 			color: #000000
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 {
+		.bee-row-20 .bee-col-1 .bee-block-1 {
 			color: #1e0e4b;
 			font-family: Inter, sans-serif;
 			font-size: 15px;
@@ -444,37 +752,236 @@
 			text-align: center
 		}
 
-		.bee-row-1 .bee-col-2 .bee-block-1 li {
-			padding: 5px 20px 25px
-		}
-
 		.bee-row-1 .bee-col-2 .bee-block-1 li a {
 			color: #101112
 		}
 
 		.bee-row-2 .bee-col-2 .bee-block-1 h1 {
-			color: #ff3131;
-			direction: ltr;
-			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			color: #ffffff;
 			font-size: 58px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-2 .bee-col-2 .bee-block-3 a {
+		.bee-row-2 .bee-col-2 .bee-block-2 h1 {
+			color: #b7d5fb;
+			font-size: 58px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-4 a {
+			background-color: #ffffff;
+			border-bottom: 1px solid #ffffff;
+			border-left: 1px solid #ffffff;
 			border-radius: 5px;
-			color: #be1e2d;
+			border-right: 1px solid #ffffff;
+			border-top: 1px solid #ffffff;
+			color: #0d3180;
+			direction: ltr;
 			font-family: inherit;
 			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0;
 			line-height: 200%;
-			padding: 5px 35px
+			padding: 5px 20px;
+			width: auto
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2 {
+		.bee-row-12 .bee-col-2 .bee-block-2 h2,
+		.bee-row-3 .bee-col-2 .bee-block-2 h2,
+		.bee-row-4 .bee-col-1 .bee-block-1 h2,
+		.bee-row-4 .bee-col-1 .bee-block-2 h2,
+		.bee-row-4 .bee-col-2 .bee-block-1 h2,
+		.bee-row-4 .bee-col-3 .bee-block-1 h2 {
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			letter-spacing: normal;
+			line-height: 120%;
+			direction: ltr
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-3 {
+			color: #b7d5fb;
+			direction: ltr;
+			font-size: 22px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-3 a,
+		.bee-row-12 .bee-col-2 .bee-block-3 a,
+		.bee-row-13 .bee-col-1 .bee-block-3 a,
+		.bee-row-13 .bee-col-2 .bee-block-4 a,
+		.bee-row-13 .bee-col-3 .bee-block-3 a,
+		.bee-row-14 .bee-col-2 .bee-block-4 a,
+		.bee-row-15 .bee-col-1 .bee-block-3 a,
+		.bee-row-15 .bee-col-2 .bee-block-3 a,
+		.bee-row-15 .bee-col-3 .bee-block-3 a,
+		.bee-row-15 .bee-col-4 .bee-block-3 a,
+		.bee-row-16 .bee-col-1 .bee-block-2 a,
+		.bee-row-16 .bee-col-1 .bee-block-5 a,
+		.bee-row-16 .bee-col-2 .bee-block-2 a,
+		.bee-row-16 .bee-col-2 .bee-block-5 a,
+		.bee-row-16 .bee-col-3 .bee-block-2 a,
+		.bee-row-16 .bee-col-3 .bee-block-5 a,
+		.bee-row-19 .bee-col-1 .bee-block-2 a,
+		.bee-row-19 .bee-col-2 .bee-block-1 a,
+		.bee-row-19 .bee-col-3 .bee-block-1 a,
+		.bee-row-19 .bee-col-4 .bee-block-1 a,
+		.bee-row-2 .bee-col-2 .bee-block-3 a,
+		.bee-row-3 .bee-col-2 .bee-block-3 a,
+		.bee-row-4 .bee-col-1 .bee-block-3 a,
+		.bee-row-4 .bee-col-2 .bee-block-3 a,
+		.bee-row-4 .bee-col-3 .bee-block-3 a,
+		.bee-row-6 .bee-col-1 .bee-block-2 a,
+		.bee-row-7 .bee-col-2 .bee-block-4 a,
+		.bee-row-8 .bee-col-1 .bee-block-2 a,
+		.bee-row-8 .bee-col-2 .bee-block-2 a,
+		.bee-row-8 .bee-col-3 .bee-block-2 a,
+		.bee-row-8 .bee-col-4 .bee-block-2 a {
+			color: #8a3b8f
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-12 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-13 .bee-col-1 .bee-block-3 p:not(:last-child),
+		.bee-row-13 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-13 .bee-col-3 .bee-block-3 p:not(:last-child),
+		.bee-row-14 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-15 .bee-col-1 .bee-block-3 p:not(:last-child),
+		.bee-row-15 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-15 .bee-col-3 .bee-block-3 p:not(:last-child),
+		.bee-row-15 .bee-col-4 .bee-block-3 p:not(:last-child),
+		.bee-row-16 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-16 .bee-col-1 .bee-block-5 p:not(:last-child),
+		.bee-row-16 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-16 .bee-col-2 .bee-block-5 p:not(:last-child),
+		.bee-row-16 .bee-col-3 .bee-block-2 p:not(:last-child),
+		.bee-row-16 .bee-col-3 .bee-block-5 p:not(:last-child),
+		.bee-row-19 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-19 .bee-col-2 .bee-block-1 p:not(:last-child),
+		.bee-row-19 .bee-col-3 .bee-block-1 p:not(:last-child),
+		.bee-row-19 .bee-col-4 .bee-block-1 p:not(:last-child),
+		.bee-row-2 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-4 .bee-col-1 .bee-block-3 p:not(:last-child),
+		.bee-row-4 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-4 .bee-col-3 .bee-block-3 p:not(:last-child),
+		.bee-row-6 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-7 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-8 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-8 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-8 .bee-col-3 .bee-block-2 p:not(:last-child),
+		.bee-row-8 .bee-col-4 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-12 .bee-col-2 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-3 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-12 .bee-col-2 .bee-block-2 h2,
+		.bee-row-3 .bee-col-2 .bee-block-2 h2 {
+			color: #111827;
+			font-size: 36px;
+			font-weight: 700;
+			text-align: center
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1 h2,
+		.bee-row-4 .bee-col-2 .bee-block-1 h2,
+		.bee-row-4 .bee-col-3 .bee-block-1 h2 {
+			color: #005ae2;
+			font-size: 30px;
+			font-weight: 700;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 h2 {
+			color: #111827;
+			font-size: 20px;
+			font-weight: 600;
+			text-align: left
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-2,
+		.bee-row-16 .bee-col-1 .bee-block-5,
+		.bee-row-16 .bee-col-2 .bee-block-2,
+		.bee-row-16 .bee-col-2 .bee-block-5,
+		.bee-row-16 .bee-col-3 .bee-block-2,
+		.bee-row-16 .bee-col-3 .bee-block-5,
+		.bee-row-4 .bee-col-1 .bee-block-3,
+		.bee-row-4 .bee-col-2 .bee-block-3,
+		.bee-row-4 .bee-col-3 .bee-block-3 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-12 a,
+		.bee-row-4 .bee-col-1 .bee-block-4 a {
+			background-color: #005ae2;
+			border-bottom: 1px solid #005ae2;
+			border-left: 1px solid #005ae2;
+			border-radius: 4px;
+			border-right: 1px solid #005ae2;
+			border-top: 1px solid #005ae2;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: 100%
+		}
+
+		.bee-row-4 .bee-col-2 .bee-block-2 h2,
+		.bee-row-4 .bee-col-3 .bee-block-2 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 20px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-11 a,
+		.bee-row-13 .bee-col-3 .bee-block-11 a,
+		.bee-row-4 .bee-col-2 .bee-block-4 a,
+		.bee-row-4 .bee-col-3 .bee-block-4 a {
+			background-color: #121722;
+			border-bottom: 1px solid #121722;
+			border-left: 1px solid #121722;
+			border-radius: 4px;
+			border-right: 1px solid #121722;
+			border-top: 1px solid #121722;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2 {
 			color: #393d47;
 			direction: ltr;
 			font-size: 24px;
@@ -484,29 +991,8 @@
 			text-align: left
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2 a,
-		.bee-row-5 .bee-col-2 .bee-block-4 a,
-		.bee-row-6 .bee-col-1 .bee-block-2 a,
-		.bee-row-6 .bee-col-2 .bee-block-2 a,
-		.bee-row-6 .bee-col-3 .bee-block-2 a,
-		.bee-row-6 .bee-col-4 .bee-block-2 a,
-		.bee-row-7 .bee-col-2 .bee-block-4 a {
-			color: #8a3b8f
-		}
-
-		.bee-row-2 .bee-col-2 .bee-block-2 p:not(:last-child),
-		.bee-row-4 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-5 .bee-col-2 .bee-block-4 p:not(:last-child),
-		.bee-row-6 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-6 .bee-col-2 .bee-block-2 p:not(:last-child),
-		.bee-row-6 .bee-col-3 .bee-block-2 p:not(:last-child),
-		.bee-row-6 .bee-col-4 .bee-block-2 p:not(:last-child),
-		.bee-row-7 .bee-col-2 .bee-block-4 p:not(:last-child) {
-			margin-bottom: 16px
-		}
-
-		.bee-row-4 .bee-col-1 .bee-block-1 h2 {
-			color: #d41616;
+		.bee-row-6 .bee-col-1 .bee-block-1 h2 {
+			color: #111827;
 			direction: ltr;
 			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
 			font-size: 48px;
@@ -516,114 +1002,114 @@
 			text-align: left
 		}
 
-		.bee-row-2 .bee-col-2 .bee-block-2 {
-			color: #a6a6a6;
-			direction: ltr;
-			font-size: 22px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.bee-row-2 .bee-col-2 .bee-block-2 a {
-			color: transparent
-		}
-
-		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-image,
-		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-image,
-		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-image,
-		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-image,
+		.bee-row-13 .bee-col-1 .bee-block-10 .bee-icon-image,
+		.bee-row-13 .bee-col-1 .bee-block-6 .bee-icon-image,
+		.bee-row-13 .bee-col-1 .bee-block-7 .bee-icon-image,
+		.bee-row-13 .bee-col-1 .bee-block-8 .bee-icon-image,
+		.bee-row-13 .bee-col-1 .bee-block-9 .bee-icon-image,
+		.bee-row-13 .bee-col-2 .bee-block-10 .bee-icon-image,
+		.bee-row-13 .bee-col-2 .bee-block-11 .bee-icon-image,
+		.bee-row-13 .bee-col-2 .bee-block-7 .bee-icon-image,
+		.bee-row-13 .bee-col-2 .bee-block-8 .bee-icon-image,
+		.bee-row-13 .bee-col-2 .bee-block-9 .bee-icon-image,
+		.bee-row-13 .bee-col-3 .bee-block-10 .bee-icon-image,
+		.bee-row-13 .bee-col-3 .bee-block-6 .bee-icon-image,
+		.bee-row-13 .bee-col-3 .bee-block-7 .bee-icon-image,
+		.bee-row-13 .bee-col-3 .bee-block-8 .bee-icon-image,
+		.bee-row-13 .bee-col-3 .bee-block-9 .bee-icon-image,
+		.bee-row-14 .bee-col-2 .bee-block-2 .bee-icon-image,
+		.bee-row-6 .bee-col-1 .bee-block-3 .bee-icon-image,
+		.bee-row-6 .bee-col-1 .bee-block-4 .bee-icon-image,
+		.bee-row-6 .bee-col-1 .bee-block-5 .bee-icon-image,
 		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon-image {
 			padding: 5px
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content,
-		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon:not(.bee-icon-first) .bee-content,
-		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon:not(.bee-icon-first) .bee-content,
-		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon:not(.bee-icon-first) .bee-content,
-		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-1 .bee-block-10 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-1 .bee-block-6 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-1 .bee-block-7 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-1 .bee-block-8 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-1 .bee-block-9 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-2 .bee-block-10 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-2 .bee-block-11 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-2 .bee-block-7 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-2 .bee-block-8 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-2 .bee-block-9 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-3 .bee-block-10 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-3 .bee-block-6 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-3 .bee-block-7 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-3 .bee-block-8 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-13 .bee-col-3 .bee-block-9 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-14 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-20 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-6 .bee-col-1 .bee-block-3 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-6 .bee-col-1 .bee-block-4 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-6 .bee-col-1 .bee-block-5 .bee-icon:not(.bee-icon-first) .bee-content,
 		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content {
 			margin-left: 0
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-6 .bee-col-1 .bee-block-3 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label a,
-		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label a,
-		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label a,
-		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-label a,
+		.bee-row-13 .bee-col-1 .bee-block-10 .bee-icon-label a,
+		.bee-row-13 .bee-col-1 .bee-block-6 .bee-icon-label a,
+		.bee-row-13 .bee-col-1 .bee-block-7 .bee-icon-label a,
+		.bee-row-13 .bee-col-1 .bee-block-8 .bee-icon-label a,
+		.bee-row-13 .bee-col-1 .bee-block-9 .bee-icon-label a,
+		.bee-row-13 .bee-col-2 .bee-block-10 .bee-icon-label a,
+		.bee-row-13 .bee-col-2 .bee-block-11 .bee-icon-label a,
+		.bee-row-13 .bee-col-2 .bee-block-7 .bee-icon-label a,
+		.bee-row-13 .bee-col-2 .bee-block-8 .bee-icon-label a,
+		.bee-row-13 .bee-col-2 .bee-block-9 .bee-icon-label a,
+		.bee-row-13 .bee-col-3 .bee-block-10 .bee-icon-label a,
+		.bee-row-13 .bee-col-3 .bee-block-6 .bee-icon-label a,
+		.bee-row-13 .bee-col-3 .bee-block-7 .bee-icon-label a,
+		.bee-row-13 .bee-col-3 .bee-block-8 .bee-icon-label a,
+		.bee-row-13 .bee-col-3 .bee-block-9 .bee-icon-label a,
+		.bee-row-14 .bee-col-2 .bee-block-2 .bee-icon-label a,
+		.bee-row-6 .bee-col-1 .bee-block-3 .bee-icon-label a,
+		.bee-row-6 .bee-col-1 .bee-block-4 .bee-icon-label a,
+		.bee-row-6 .bee-col-1 .bee-block-5 .bee-icon-label a,
 		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon-label a {
 			color: #000000
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-6 div,
-		.bee-row-5 .bee-col-2 .bee-block-5 a,
+		.bee-row-6 .bee-col-1 .bee-block-5 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-14 .bee-col-2 .bee-block-5 a,
+		.bee-row-6 .bee-col-1 .bee-block-6 a,
 		.bee-row-7 .bee-col-2 .bee-block-5 a {
+			background-color: #005ae2;
+			border-bottom: 1px solid #005ae2;
+			border-left: 1px solid #005ae2;
 			border-radius: 4px;
-			color: #be1e2d;
+			border-right: 1px solid #005ae2;
+			border-top: 1px solid #005ae2;
+			color: #ffffff;
+			direction: ltr;
 			font-family: inherit;
 			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0;
 			line-height: 200%;
-			padding: 5px 20px
+			padding: 5px 20px;
+			width: auto
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-6 .bee-col-1 .bee-block-4 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 
-		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
-			margin-right: 0
-		}
-
-		.bee-row-5 .bee-col-2 .bee-block-3 h2,
-		.bee-row-7 .bee-col-2 .bee-block-3 h2 {
-			color: #ffffff;
-			direction: ltr;
-			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
-			font-size: 48px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-6 .bee-col-1 .bee-block-1 h2,
-		.bee-row-6 .bee-col-2 .bee-block-1 h2,
-		.bee-row-6 .bee-col-3 .bee-block-1 h2,
-		.bee-row-6 .bee-col-4 .bee-block-1 h2 {
-			color: #393d47;
-			direction: ltr;
-			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
-			font-size: 18px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-6 .bee-col-1 .bee-block-2,
-		.bee-row-6 .bee-col-2 .bee-block-2,
-		.bee-row-6 .bee-col-3 .bee-block-2,
-		.bee-row-6 .bee-col-4 .bee-block-2 {
-			color: #393d47;
-			direction: ltr;
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 150%;
-			text-align: center
-		}
-
-		.bee-row-5 .bee-col-2 .bee-block-4,
+		.bee-row-10 .bee-col-2 .bee-block-3,
+		.bee-row-14 .bee-col-2 .bee-block-4,
 		.bee-row-7 .bee-col-2 .bee-block-4 {
 			color: #393d47;
 			direction: ltr;
@@ -634,58 +1120,286 @@
 			text-align: center
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-2,
-		.bee-row-9 .bee-col-3 .bee-block-2 {
-			color: #ffffff;
+		.bee-row-10 .bee-col-2 .bee-block-2 h2,
+		.bee-row-14 .bee-col-2 .bee-block-3 h2,
+		.bee-row-7 .bee-col-2 .bee-block-3 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-15 .bee-col-1 .bee-block-2 h2,
+		.bee-row-15 .bee-col-2 .bee-block-2 h2,
+		.bee-row-15 .bee-col-3 .bee-block-2 h2,
+		.bee-row-15 .bee-col-4 .bee-block-2 h2,
+		.bee-row-8 .bee-col-1 .bee-block-1 h2,
+		.bee-row-8 .bee-col-2 .bee-block-1 h2,
+		.bee-row-8 .bee-col-3 .bee-block-1 h2,
+		.bee-row-8 .bee-col-4 .bee-block-1 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 18px;
+			font-weight: 600;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-15 .bee-col-1 .bee-block-3,
+		.bee-row-15 .bee-col-2 .bee-block-3,
+		.bee-row-15 .bee-col-3 .bee-block-3,
+		.bee-row-15 .bee-col-4 .bee-block-3,
+		.bee-row-8 .bee-col-1 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-3 .bee-block-2,
+		.bee-row-8 .bee-col-4 .bee-block-2 {
+			color: #393d47;
 			direction: ltr;
 			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0;
-			line-height: 120%
+			line-height: 150%;
+			text-align: center
 		}
 
-		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
-			margin-right: 0
-		}
-
-		.bee-row-9 .bee-col-3 .bee-block-1 h1 {
-			color: #ff0000;
+		.bee-row-9 .bee-col-1 .bee-block-2 a {
+			background-color: #dbfae4;
+			border-bottom: 0 solid #245830;
+			border-left: 0 solid #245830;
+			border-radius: 22px;
+			border-right: 0px solid #245830;
+			border-top: 0 solid #245830;
+			color: #245830;
 			direction: ltr;
-			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
-			font-size: 23px;
-			font-weight: 700;
-			letter-spacing: 2px;
-			line-height: 100%;
-			text-align: right
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: auto
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-2 {
+		.bee-row-11 .bee-col-1 .bee-block-1 h2,
+		.bee-row-13 .bee-col-1 .bee-block-1 h2,
+		.bee-row-13 .bee-col-1 .bee-block-2 h2,
+		.bee-row-13 .bee-col-1 .bee-block-4 h2,
+		.bee-row-13 .bee-col-2 .bee-block-3 h2,
+		.bee-row-13 .bee-col-2 .bee-block-5 h2,
+		.bee-row-13 .bee-col-3 .bee-block-1 h2,
+		.bee-row-13 .bee-col-3 .bee-block-2 h2,
+		.bee-row-13 .bee-col-3 .bee-block-4 h2 {
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			direction: ltr
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 h2 {
+			color: #111827;
+			font-size: 32px;
 			text-align: left
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-9 .bee-col-3 .bee-block-2 p:not(:last-child) {
-			margin-bottom: 0
+		.bee-row-13 .bee-col-1 .bee-block-1 h2,
+		.bee-row-13 .bee-col-3 .bee-block-1 h2 {
+			color: #111827;
+			font-size: 24px;
+			text-align: center
 		}
 
-		.bee-row-9 .bee-col-3 .bee-block-2 {
-			padding-right: 10px;
-			text-align: right
+		.bee-row-13 .bee-col-1 .bee-block-3,
+		.bee-row-13 .bee-col-2 .bee-block-4,
+		.bee-row-13 .bee-col-3 .bee-block-3 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon-image {
-			padding: 5px 6px 5px 5px
+		.bee-row-13 .bee-col-1 .bee-block-4 h2,
+		.bee-row-13 .bee-col-2 .bee-block-5 h2,
+		.bee-row-13 .bee-col-3 .bee-block-4 h2 {
+			color: #111827;
+			font-size: 19px;
+			text-align: center
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-13 .bee-col-1 .bee-block-2 h2,
+		.bee-row-13 .bee-col-2 .bee-block-3 h2,
+		.bee-row-13 .bee-col-3 .bee-block-2 h2 {
+			color: #005ae2;
+			font-size: 30px;
+			text-align: center
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-6 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon-label a {
+		.bee-row-13 .bee-col-1 .bee-block-7 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-8 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-10 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-1 div {
+			background-color: #d1dff5;
+			border-bottom: 1px solid #d1dff5;
+			border-left: 1px solid #d1dff5;
+			border-radius: 20px;
+			border-right: 1px solid #d1dff5;
+			border-top: 1px solid #d1dff5;
+			color: #005ae2;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 50%
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-2 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 32px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-13 .bee-col-1 .bee-block-9 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-7 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-8 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-9 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-10 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-2 .bee-block-11 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-6 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-7 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-8 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-9 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-13 .bee-col-3 .bee-block-10 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-14 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-4 h2,
+		.bee-row-16 .bee-col-2 .bee-block-4 h2,
+		.bee-row-16 .bee-col-3 .bee-block-4 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 18px;
+			font-weight: 600;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-19 .bee-col-1 .bee-block-2 {
+			color: #d1d5db;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: left
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-1,
+		.bee-row-19 .bee-col-3 .bee-block-1,
+		.bee-row-19 .bee-col-4 .bee-block-1 {
+			color: #d1d5db;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-19 .bee-col-2 .bee-block-2 li a,
+		.bee-row-19 .bee-col-3 .bee-block-2 li a,
+		.bee-row-19 .bee-col-4 .bee-block-2 li a {
+			color: #d1d5db
+		}
+
+		.bee-row-20 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-20 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-20 .bee-col-1 .bee-block-1 .bee-icon-label a {
 			color: #1e0e4b
 		}
 
 		@media (max-width:768px) {
+			.bee-form form {
+				width: 100% !important
+			}
+
+			img.bee-fullwidthOnMobile {
+				max-width: none !important
+			}
+
 			.bee-menu ul.with-bee-hamburger {
 				display: none;
 				padding: 5px 0;
@@ -720,24 +1434,62 @@
 			}
 
 			.bee-row-4 .bee-row-content {
-				padding: 0 0 15px !important
-			}
-
-			.bee-row-4 .bee-col-1 {
-				padding: 5px 10px !important
-			}
-
-			.bee-row-4 .bee-col-3 {
-				padding: 5px 0 !important
+				padding: 0 20px !important
 			}
 
 			.bee-row-6 .bee-row-content {
+				padding: 0 0 15px !important
+			}
+
+			.bee-row-6 .bee-col-1 {
+				padding: 5px 10px !important
+			}
+
+			.bee-row-6 .bee-col-3 {
+				padding: 5px 0 !important
+			}
+
+			.bee-row-15 .bee-row-content,
+			.bee-row-16 .bee-row-content,
+			.bee-row-8 .bee-row-content {
 				padding: 15px 20px !important
 			}
 
-			.bee-row-6 .bee-col-1,
-			.bee-row-6 .bee-col-2,
-			.bee-row-6 .bee-col-3 {
+			.bee-row-11 .bee-col-1 {
+				padding: 5px !important
+			}
+
+			.bee-row-13 .bee-row-content {
+				padding: 10px 20px 25px !important
+			}
+
+			.bee-row-19 .bee-col-1 {
+				padding: 30px 20px 10px !important
+			}
+
+			.bee-row-19 .bee-col-2 {
+				padding: 10px 20px !important
+			}
+
+			.bee-row-19 .bee-col-3 {
+				padding: 10px 20px 30px !important
+			}
+
+			.bee-row-13 .bee-col-1,
+			.bee-row-13 .bee-col-2,
+			.bee-row-4 .bee-col-1,
+			.bee-row-4 .bee-col-2 {
+				margin-bottom: 30px !important
+			}
+
+			.bee-row-15 .bee-col-1,
+			.bee-row-15 .bee-col-2,
+			.bee-row-15 .bee-col-3,
+			.bee-row-16 .bee-col-1,
+			.bee-row-16 .bee-col-2,
+			.bee-row-8 .bee-col-1,
+			.bee-row-8 .bee-col-2,
+			.bee-row-8 .bee-col-3 {
 				margin-bottom: 10px !important
 			}
 
@@ -748,17 +1500,26 @@
 				border-radius: 0
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span {
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span,
+			.bee-row-19 .bee-col-2 .bee-block-2 .bee-hamburger-controls span,
+			.bee-row-19 .bee-col-3 .bee-block-2 .bee-hamburger-controls span,
+			.bee-row-19 .bee-col-4 .bee-block-2 .bee-hamburger-controls span {
 				width: 18px;
 				height: 18px
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-open {
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-open,
+			.bee-row-19 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open,
+			.bee-row-19 .bee-col-3 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open,
+			.bee-row-19 .bee-col-4 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-close {
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-close,
+			.bee-row-19 .bee-col-2 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close,
+			.bee-row-19 .bee-col-3 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close,
+			.bee-row-19 .bee-col-4 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close {
 				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
 				transform: translate(-50%, -50%) scaleY(0)
 			}
@@ -768,7 +1529,13 @@
 			}
 
 			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li,
-			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li a {
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li a,
+			.bee-row-19 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-19 .bee-col-2 .bee-block-2 ul.with-bee-hamburger li a,
+			.bee-row-19 .bee-col-3 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-19 .bee-col-3 .bee-block-2 ul.with-bee-hamburger li a,
+			.bee-row-19 .bee-col-4 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-19 .bee-col-4 .bee-block-2 ul.with-bee-hamburger li a {
 				color: #ffffff
 			}
 
@@ -780,36 +1547,135 @@
 				transform: translate(-50%, -50%) scaleY(1)
 			}
 
-			.bee-row-2 .bee-col-2 .bee-block-1 h1 {
+			.bee-row-2 .bee-col-2 .bee-block-1 h1,
+			.bee-row-2 .bee-col-2 .bee-block-2 h1 {
 				font-size: 42px
 			}
 
-			.bee-row-4 .bee-col-1 .bee-block-2,
-			.bee-row-5 .bee-col-2 .bee-block-4,
+			.bee-row-2 .bee-col-2 .bee-block-3 {
+				font-size: 20px !important
+			}
+
+			.bee-row-10 .bee-col-2 .bee-block-3,
+			.bee-row-14 .bee-col-2 .bee-block-4,
+			.bee-row-6 .bee-col-1 .bee-block-2,
 			.bee-row-7 .bee-col-2 .bee-block-4 {
 				font-size: 16px !important
 			}
 
-			.bee-row-4 .bee-col-1 .bee-block-1 h2,
-			.bee-row-5 .bee-col-2 .bee-block-3 h2,
+			.bee-row-10 .bee-col-2 .bee-block-2 h2,
+			.bee-row-14 .bee-col-2 .bee-block-3 h2,
+			.bee-row-6 .bee-col-1 .bee-block-1 h2,
 			.bee-row-7 .bee-col-2 .bee-block-3 h2 {
 				font-size: 36px
 			}
 
-			.bee-row-2 .bee-col-2 .bee-block-2 {
-				font-size: 20px !important
-			}
-
-			.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label,
-			.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label,
-			.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label {
+			.bee-row-6 .bee-col-1 .bee-block-3 .bee-icon-label,
+			.bee-row-6 .bee-col-1 .bee-block-4 .bee-icon-label,
+			.bee-row-6 .bee-col-1 .bee-block-5 .bee-icon-label {
 				font-size: 14px !important;
 				text-align: center
 			}
 
-			.bee-row-7 .bee-col-2 .bee-block-1 {
+			.bee-row-11 .bee-col-1 .bee-block-1,
+			.bee-row-11 .bee-col-1 .bee-block-1 h2 {
+				text-align: center
+			}
+
+			.bee-row-14 .bee-col-2 .bee-block-1 {
 				height: 30px !important
 			}
+
+			.bee-row-17 .bee-col-1 .bee-block-1 {
+				height: 25px !important
+			}
+
+			.bee-row-19 .bee-col-2 .bee-block-2 .bee-hamburger-controls,
+			.bee-row-19 .bee-col-3 .bee-block-2 .bee-hamburger-controls,
+			.bee-row-19 .bee-col-4 .bee-block-2 .bee-hamburger-controls {
+				width: 36px;
+				height: 36px;
+				background-color: #7747ff;
+				border-radius: 0
+			}
+
+			.bee-row-19 .bee-col-2 .bee-block-2 ul.with-bee-hamburger,
+			.bee-row-19 .bee-col-3 .bee-block-2 ul.with-bee-hamburger,
+			.bee-row-19 .bee-col-4 .bee-block-2 ul.with-bee-hamburger {
+				background-color: #7747ff
+			}
+
+			.bee-row-19 .bee-col-2 .bee-block-2,
+			.bee-row-19 .bee-col-3 .bee-block-2,
+			.bee-row-19 .bee-col-4 .bee-block-2,
+			.bee-row-19 .bee-col-4 .bee-block-3 {
+				text-align: left !important
+			}
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 form {
+			display: inline-block;
+			width: 100%
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 div.label,
+		.bee-row-11 .bee-col-1 .bee-block-2 label {
+			color: #101112;
+			letter-spacing: normal;
+			line-height: 200%;
+			text-align: left;
+			display: block
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 ::-webkit-input-placeholder {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 :-moz-placeholder {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 ::-moz-placeholder {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 :-ms-input-placeholder {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 .bee-field>label:first-child,
+		.bee-row-11 .bee-col-1 .bee-block-2 div.label {
+			padding: 3px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
+			background-color: #ffffff;
+			border-bottom: 1px solid #e1dada;
+			border-left: 1px solid #e1dada;
+			border-radius: 7px;
+			border-right: 1px solid #e1dada;
+			border-top: 1px solid #e1dada;
+			color: #000000;
+			padding: 5px;
+			min-height: 42px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 input:not([type=checkbox]):not([type=radio]):focus {
+			outline-color: #005ae2
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 button {
+			background-color: #005ae2;
+			border-bottom: 2px solid #ebebeb;
+			border-left: 2px solid #ebebeb;
+			border-radius: 4px;
+			border-right: 2px solid #ebebeb;
+			border-top: 2px solid #ebebeb;
+			color: #ffffff;
+			letter-spacing: normal;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: 100%
 		}
 	</style>
 </head>
@@ -819,16 +1685,16 @@
 		<div class="bee-row bee-row-1">
 			<div class="bee-row-content no_stack">
 				<div class="bee-col bee-col-1 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="company logo" class="bee-fixedwidth" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/ehx/63w/k4f/1.png" style="max-width:128px;" title="company logo" /></a></div>
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="company logo" class="bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bank_logo.png" style="max-width:95px;" title="company logo" /></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-menu">
 						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-menu-r0c1m0" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-menu-r0c1m0"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
 							<ul class="bee-horizontal with-bee-hamburger">
-								<li><a href="#about_point" target="_self" title="">About</a></li>
-								<li><a href="#howitworks_point" target="_self" title="">How it works?</a></li>
-								<li><a href="https:/bricksense.streamlit.app" target="_self" title="">Try BrickSense</a></li>
-								<li><a href="#contact_point" target="_self" title="">Contact</a></li>
+								<li><a href="www.example.com" target="_self" title="">Accounts</a></li>
+								<li><a href="www.example.com" target="_self" title="">Credit Cards</a></li>
+								<li><a href="www.example.com" target="_self" title="">Loans</a></li>
+								<li><a href="www.example.com" target="_self" title="">Mortgages</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -843,14 +1709,17 @@
 					</div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-heading" id="module_44d5d9e5-41f4-4a8c-9fb2-29a32f3c3b4a">
-						<h1><span class="tinyMce-placeholder">BRICK SENSE</span> </h1>
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Your Financial Future</span> </h1>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>An AI-powered tool that helps <strong>builders, engineers, and suppliers</strong> quickly assess brick quality and wall conditions without complicated lab tests.</p>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Starts Here</span> </h1>
 					</div>
-					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="https://bricksense.streamlit.app/" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">TRY NOW</span></a></div>
-					<div class="bee-block bee-block-4 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/0my/jxm/nfs/faec6871-8d19-496f-89f1-7e9291e0f315.png" style="max-width:288px;" title="" /></div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Experience modern banking with industry-leading security, innovative mobile features, and personalized financial solutions.</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Explore Services</span></a></div>
+					<div class="bee-block bee-block-5 bee-image"><a href="www.example.com" target="_blank"><img alt="Bank App main screen" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bank_app.png" style="max-width:508px;" title="Bank App main screen" /></a></div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w3">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -861,49 +1730,112 @@
 		</div>
 		<div class="bee-row bee-row-3">
 			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer" id="about_point">
-						<div class="spacer" style="height:45px;"></div>
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:55px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><span class="tinyMce-placeholder">Limited-Time Offers</span> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Take advantage of these exclusive promotions designed to help you achieve your financial goals</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-4">
+			<div class="bee-row-content" style="gap:30px;">
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>$200 Bonus </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>New Customer Bonus </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Earn $200 when you open a new checking account and set up direct deposit</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2><span class="tinyMce-placeholder">2.85% APY</span> </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><span class="tinyMce-placeholder">High-Yield Savings</span> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Start earning more with our competitive savings rates.            </p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Learn More</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>0% Intro APR </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><span class="tinyMce-placeholder">High-Yield Savings</span> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>No annual fee and earn rewards on every purchase.               </p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Apply Now</span></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:35px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
 			<div class="bee-row-content reverse">
 				<div class="bee-col bee-col-1 bee-col-w5">
-					<div class="bee-block bee-block-1 bee-heading" id="module_239c9d78-a63e-4242-92ff-4d3ae31c3655">
-						<h2><span class="tinyMce-placeholder">Smart Brick &amp; Wall Quality </span><span class="tinyMce-placeholder">Inspection</span> </h2>
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2><span class="tinyMce-placeholder">Banking at Your Fingertips</span> </h2>
 					</div>
 					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>A<strong> smart tool for construction quality control</strong>, reducing manual testing and speeding up brick inspection.</p>
+						<p>Our award-winning mobile app puts the power of banking in your pocket with cutting-edge features and unmatched convenience.</p>
 					</div>
 					<div class="bee-block bee-block-3 bee-icons">
 						<div class="bee-icon bee-icon-last">
 							<div class="bee-content">
-								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/204/8fc/act/3.png" width="auto" /></div>
-								<div class="bee-icon-label bee-icon-label-right">Saves time and cost compared to manual testing.</div>
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Spending insights &amp; budgeting</div>
 							</div>
 						</div>
 					</div>
 					<div class="bee-block bee-block-4 bee-icons">
 						<div class="bee-icon bee-icon-last">
 							<div class="bee-content">
-								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/204/8fc/act/3.png" width="auto" /></div>
-								<div class="bee-icon-label bee-icon-label-right">Ensures construction quality and durability.</div>
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Person-to-person payments</div>
 							</div>
 						</div>
 					</div>
 					<div class="bee-block bee-block-5 bee-icons">
 						<div class="bee-icon bee-icon-last">
 							<div class="bee-content">
-								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/204/8fc/act/3.png" width="auto" /></div>
-								<div class="bee-icon-label bee-icon-label-right">Helps in making quick decisions about material use.</div>
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Instant mobile deposits</div>
 							</div>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button">
-						<div class="bee-button-content" style="font-size: 16px; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">See What's new</span></div>
-					</div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">See What's new</span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -911,79 +1843,7 @@
 					</div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Bank App Expenses" class="bee-center bee-fixedwidth" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/215/3jp/98j/Pitch%20Deck%20-%20Brick%20Sense%20%281%29.png" style="max-width:288px;" title="Bank App Expenses" /></a></div>
-					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-5">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:1px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-spacer" id="howitworks_point">
-						<div class="spacer" style="height:50px;"></div>
-					</div>
-					<div class="bee-block bee-block-2 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							<div class="bee-content">
-								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/2ym/1s7/skd/4.png" width="auto" /></a></div>
-							</div>
-						</div>
-					</div>
-					<div class="bee-block bee-block-3 bee-heading">
-						<h2><span class="tinyMce-placeholder">Smart Bricks - Safe Builds</span> </h2>
-					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p>Ensure every brick meets the highest standards with smart, instant quality checks. BrickSense ensures your projects are built on reliable, tested materials.</p>
-					</div>
-					<div class="bee-block bee-block-5 bee-button" id="module_5aff6314-c1be-4519-af39-6afb01d7735b"><a class="bee-button-content" href="https://bricksense.streamlit.app/" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Try BrickSense</span></a></div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:1px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-6">
-			<div class="bee-row-content" style="gap:10px;">
-				<div class="bee-col bee-col-1 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h2><span class="tinyMce-placeholder">Brick Classification</span> </h2>
-					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>Automatically identifies if a brick is 1st, 2nd, or 3rd class based on quality.</p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h2><span class="tinyMce-placeholder">Defect Detection</span> </h2>
-					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>Detects cracks, chips, and other defects in bricks or walls.</p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h2><span class="tinyMce-placeholder">Property Prediction</span> </h2>
-					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>Estimates important properties like absorption or strength</p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h2><span class="tinyMce-placeholder">Easy to Use</span> </h2>
-					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>You're protected from unauthorized transactions</p>
-					</div>
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Bank App Expenses" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/main_app.png" style="max-width:445px;" title="Bank App Expenses" /></a></div>
 				</div>
 			</div>
 		</div>
@@ -1001,17 +1861,17 @@
 					<div class="bee-block bee-block-2 bee-icons">
 						<div class="bee-icon bee-icon-last">
 							<div class="bee-content">
-								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/sr7/ckl/z50/5.png" width="auto" /></a></div>
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/security.png" width="auto" /></a></div>
 							</div>
 						</div>
 					</div>
 					<div class="bee-block bee-block-3 bee-heading">
-						<h2><span class="tinyMce-placeholder">Built on Trust</span> </h2>
+						<h2><span class="tinyMce-placeholder">Your Security is Our Priority</span> </h2>
 					</div>
 					<div class="bee-block bee-block-4 bee-paragraph">
-						<p>Built on Thousands of Bricks Tested for Accuracy You Can Trust. Your Partner for Smarter, Safer Construction. Building Confidence, One Project at a Time.</p>
+						<p>Bank with confidence knowing your accounts are protected by industry-leading security measures and continuous monitoring.</p>
 					</div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="https://bricksense.streamlit.app/" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Use BrickSense</span></a></div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w3">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -1021,6 +1881,452 @@
 			</div>
 		</div>
 		<div class="bee-row bee-row-8">
+			<div class="bee-row-content" style="gap:10px;">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2><span class="tinyMce-placeholder">New Customer Bonus</span> </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>256-bit SSL encryption protects every transaction</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Multi-Factor Authentication </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Enhanced security with biometric and SMS verification</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2><span class="tinyMce-placeholder">Real-Time Fraud Monitoring</span> </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>AI-powered systems monitor for suspicious activity 24/7</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Zero Liability Protection </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>You're protected from unauthorized transactions</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">FDIC Insured up to $250,000</span></a></div>
+					<div class="bee-block bee-block-3 bee-spacer">
+						<div class="spacer" style="height:65px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><span class="tinyMce-placeholder">Savings Calculator</span> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>See how your savings can grow with our competitive interest rates</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2><span class="tinyMce-placeholder">Calculate Your Savings Growth</span> </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-form">
+						<form accept-charset="UTF-8" action="ACTION_PLACEHOLDER" autocomplete="on" enctype="multipart/form-data" method="post" target="_self">
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r10c0m1r1f1"><label for="r10c0m1r1f1">Initial Deposit</label><input id="r10c0m1r1f1" name="number" type="number" /></div>
+							</div>
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r10c0m1r3f1"><label for="r10c0m1r3f1">Monthly Deposit</label><input id="r10c0m1r3f1" name="lastname" required="" type="text" /></div>
+							</div>
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r10c0m1r4f1"><label for="r10c0m1r4f1">Email</label><input id="r10c0m1r4f1" name="email" required="" type="text" /></div>
+							</div>
+							<div class="bee-form-row">
+								<div class="bee-field bee-field-r10c0m1r5f1">
+									<div class="bee-button-container"><button id="r10c0m1r5f1" name="submit" type="submit" value="Calculate">Calculate</button></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-image"><img alt="a man putting money into a yellow piggy bank" class="bee-center bee-autowidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bank_saving.png" style="max-width:529px;" title="a man putting money into a yellow piggy bank" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-12">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2><span class="tinyMce-placeholder">Compare Our Accounts</span> </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Find the perfect account for your financial needs with transparent pricing and competitive benefits</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-13">
+			<div class="bee-row-content" style="gap:30px;">
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Basic Checking </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>$0 </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Monthly fee</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h2>$0 minimum </h2>
+					</div>
+					<div class="bee-block bee-block-5 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">No monthly maintenance fee</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-7 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Mobile banking &amp; app</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-8 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Online bill pay</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-9 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Debit card included</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-10 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Access to 30,000+ ATMs</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-11 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-button">
+						<div class="bee-button-content" style="font-size: 16px; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">MOST POPULAR</span></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>Premium Checking </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2>$15 </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Monthly fee</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-heading">
+						<h2>$2,500 minimum </h2>
+					</div>
+					<div class="bee-block bee-block-6 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+					<div class="bee-block bee-block-7 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Everything in Basic</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-8 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">No ATM fees worldwide</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-9 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Interest on balance</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-10 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Premium customer service</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-11 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Identity theft protection</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-12 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>High-Yield Savings </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>$0 </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Monthly fee</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h2>$100 minimum </h2>
+					</div>
+					<div class="bee-block bee-block-5 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">2.85% APY</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-7 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">No monthly fees</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-8 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">FDIC insured</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-9 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Mobile banking</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-10 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Automatic transfers</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-11 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-14">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/trusted.png" width="auto" /></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2>Trusted by Millions </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Join millions of satisfied customers who trust us with their financial future</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Open Account</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-15">
+			<div class="bee-row-content" style="gap:10px;">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="a blue umbrella with a dollar sign" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bank_insurance.png" style="max-width:77px;" title="a blue umbrella with a dollar sign" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>FDIC Insured </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Your deposits are protected up to $250,000 per depositor</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="a blue star and leaves in a wreath" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/award_1.png" style="max-width:77px;" title="a blue star and leaves in a wreath" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>Award-Winning Service </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Recognized as 'Best Digital Bank' for three consecutive years</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="a blue and black logo" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/_insurance%27Users.png" style="max-width:77px;" title="a blue and black logo" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>5+ Million Customers </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Trusted by millions of customers nationwide</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><img alt="a blue headphones with a microphone" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/customer_service.png" style="max-width:77px;" title="a blue headphones with a microphone" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h2>24/7 Support </h2>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Expert customer service available whenever you need it</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-16">
+			<div class="bee-row-content" style="gap:10px;">
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/1_starts.png" style="max-width:103px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p><em>"The mobile app is incredibly intuitive and the customer service is outstanding. I've never had a better banking experience."</em></p>
+					</div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h2>Sarah Chen </h2>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p>San Francisco, CA</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/1_starts.png" style="max-width:103px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>"Their savings rates are competitive and the security features give me peace of mind. Highly recommend!"  </p>
+					</div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h2>Michael Rodriguez </h2>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p>Austin, TX</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/1_starts.png" style="max-width:103px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>"Switching to SecureBank was the best financial decision I've made. Everything is seamless and efficient."</p>
+					</div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-4 bee-heading">
+						<h2>Jennifer Liu </h2>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p>New York, NY</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-17">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:75px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-18">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -1029,36 +2335,63 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-9">
+		<div class="bee-row bee-row-19">
 			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-image"><a href="#module_44d5d9e5-41f4-4a8c-9fb2-29a32f3c3b4a" target="_self"><img alt="" class="bee-fixedwidth" src="https://ffa82761f6.imgdist.com/pub/bfra/pjgpv9eo/cm2/74z/mza/2.png" style="max-width:149px;border-radius:0px 0px 0px 0px;" title="" /></a></div>
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Company logo" class="bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/9961/bank_logo_w.png" style="max-width:86px;" title="Company logo" /></a></div>
 					<div class="bee-block bee-block-2 bee-paragraph">
-						<p>© 2025 Brick Sense</p>
-						<p> All rights reserved</p>
+						<p>Helping you achieve your financial goals with innovative banking solutions.</p>
 					</div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>Banking</p>
+					</div>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-vertical">
+								<li><a href="www.example.com" target="_self" title="">Checking Accounts</a></li>
+								<li><a href="www.example.com" target="_self" title="">Saving Accounts</a></li>
+								<li><a href="www.example.com" target="_self" title="">Credit Cards</a></li>
+								<li><a href="www.example.com" target="_self" title="">Unsubscribe</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
-				<div class="bee-col bee-col-3 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">BRICK SENSE</span> </h1>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>Services</p>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph" id="contact_point">
-						<p><span style="font-family: inherit;">CUST, Islamabad, Pakistan</span></p>
-						<p>Tel: 92-51-111-555-666-422</p>
-						<p>Email: talha.tahir@cust.edu.pk </p>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-vertical">
+								<li><a href="www.example.com" target="_self" title="">Mobile Banking</a></li>
+								<li><a href="www.example.com" target="_self" title="">Online Banking</a></li>
+								<li><a href="www.example.com" target="_self" title="">Investment Services</a></li>
+								<li><a href="www.example.com" target="_self" title="">Business Banking</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>Company</p>
+					</div>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-vertical">
+								<li><a href="mailto:" target="_self" title="">email@example.com</a></li>
+								<li><a href="#" target="_self" title="">Help center</a></li>
+							</ul>
+						</nav>
 					</div>
 					<div class="bee-block bee-block-3 bee-social">
-						<div class="content"><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com/thebricksense" target="_blank"><img alt="Facebook" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.twitter.com/thebricksense" target="_blank"><img alt="Twitter" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png" title="twitter" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.linkedin.com/thebricksense" target="_blank"><img alt="Linkedin" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png" title="linkedin" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com/thebricksense" target="_blank"><img alt="Instagram" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png" title="instagram" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.youtube.com/thebricksense" target="_blank"><img alt="YouTube" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/youtube@2x.png" title="YouTube" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="mailto:mailto:talha.tahir@cust.edu.pk" target="_blank"><img alt="E-Mail" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/mail@2x.png" title="E-Mail" /></a></span></div>
+						<div class="content"><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com/" target="_self"><img alt="facebook" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.twitter.com/" target="_self"><img alt="twitter" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png" title="twitter" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.linkedin.com/" target="_self"><img alt="linkedin" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png" title="linkedin" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com/" target="_self"><img alt="instagram" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png" title="instagram" /></a></span></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-10">
+		<div class="bee-row bee-row-20">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-icons">
