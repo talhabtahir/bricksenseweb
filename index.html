@@ -845,6 +845,39 @@
 		    height: auto;
 		  }
 		}
+		.phone-wrapper {
+		    width: 100%;
+		    max-width: 288px;
+		    margin: 0 auto;
+		    box-sizing: border-box;
+		}
+		
+		.phone-wrapper img.phone-img {
+		    display: block;
+		    width: 100%;
+		    height: auto;
+		    max-width: 100%; /* important: never exceed container */
+		}
+		
+		/* Mobile */
+		@media (max-width: 768px) {
+		    .phone-wrapper {
+		        max-width: 80% !important; /* shrink on phones */
+		    }
+		    .phone-wrapper img.phone-img {
+		        width: 100% !important;
+		        height: auto;
+		    }
+		
+		    /* Make parent containers flexible */
+		    .bee-row,
+		    .bee-col,
+		    .bee-fixedwidth {
+		        max-width: 100% !important;
+		        width: 100% !important;
+		        box-sizing: border-box;
+		    }
+		}
 
 
 
