@@ -808,18 +808,26 @@
 		.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon-label a {
 			color: #1e0e4b
 		}
-		.phone-img {
-		  max-width: 288px;  /* desktop default */
+		/* Make sure all images are responsive */
+		img {
+		  max-width: 100%;
 		  height: auto;
+		}
+		
+		/* Specific fix for phone image */
+		.phone-img {
 		  display: block;
 		  margin: 0 auto;
 		}
 		
+		/* Extra fix for mobile screens */
 		@media (max-width: 768px) {
+		  .bee-fixedwidth,
 		  .phone-img {
-		    max-width: 70%;  /* scale down on small screens */
+		    max-width: 90% !important; /* shrink inside parent */
 		  }
 		}
+
 
 	</style>
 </head>
