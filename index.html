@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title>Brick Sense</title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="an AI-powered tool that helps builders, engineers, and suppliers quickly assess brick quality and wall conditions without complicated lab tests." property="og:description" />
+	<meta content="" property="og:url" />
+	<meta content="images/1_13313180_large.jpg" property="og:image" />
+	<meta content="Brick Sense" property="og:title" />
+	<meta content="an AI-powered tool that helps builders, engineers, and suppliers quickly assess brick quality and wall conditions without complicated lab tests." name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css" />
+	<style>
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		.bee-button-content {
+			text-align: center
+		}
+
+		.bee-menu .bee-hamburger-controls span,
+		.bee-row-1,
+		.bee-row-10,
+		.bee-row-11,
+		.bee-row-11 .bee-row-content,
+		.bee-row-2,
+		.bee-row-2 .bee-row-content,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-4 .bee-row-content,
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-6 .bee-row-content,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-repeat: no-repeat
+		}
+
+		body {
+			background-color: transparent;
+			color: #000000;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 a,
+		.bee-row-10 .bee-col-3 .bee-block-2 a,
+		a {
+			color: #7747FF
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		h2,
+		p {
+			margin: 0
+		}
+
+		.bee-menu .bee-hamburger-trigger {
+			display: none
+		}
+
+		.bee-row-content {
+			max-width: 1280px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content.reverse,
+		.bee-row-content.reverse .bee-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-row-content .bee-col-w1 {
+			flex-basis: 8.3333333333%
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w4 {
+			flex-basis: 33.3333333333%
+		}
+
+		.bee-row-content .bee-col-w5 {
+			flex-basis: 41.6666666667%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-button a,
+		.bee-icon .bee-icon-label-right a,
+		.bee-menu ul li a {
+			text-decoration: none
+		}
+
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-row-4 .bee-col-3 .bee-block-1 {
+			width: 100%
+		}
+
+		.bee-icon {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-content {
+			display: flex;
+			align-items: center
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-menu .bee-hamburger-controls {
+			cursor: pointer;
+			display: inline-block;
+			position: relative
+		}
+
+		.bee-menu .bee-hamburger-controls span {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-size: 100%;
+			transition: .12s ease-in-out
+		}
+
+		.bee-menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-menu ul.bee-horizontal li {
+			display: inline-block
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-10 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-5 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content,
+		.bee-row-9 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-row-1 .bee-col-1,
+		.bee-row-1 .bee-col-2,
+		.bee-row-4 .bee-col-1,
+		.bee-row-4 .bee-col-2,
+		.bee-row-4 .bee-col-3 {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1 {
+			padding: 10px;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 {
+			color: #101112;
+			font-family: 'Fira Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size: 16px;
+			font-weight: 500;
+			padding: 10px;
+			text-align: right
+		}
+
+		.bee-row-2 {
+			background-color: #1d4ed8;
+			background-image: url('images/2_8e5e054a-5f22-4ef7-8c91-36463b5172da.jpg');
+			background-size: cover
+		}
+
+		.bee-row-2 .bee-row-content {
+			background-size: auto;
+			color: #000000;
+			padding-top: 30px
+		}
+
+		.bee-row-2 .bee-col-2 {
+			padding-top: 5px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 {
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-2 {
+			padding: 10px 10px 25px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-3 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-4 {
+			padding-right: 10px;
+			width: 100%
+		}
+
+		.bee-row-10 .bee-col-1,
+		.bee-row-10 .bee-col-2,
+		.bee-row-11 .bee-col-1,
+		.bee-row-2 .bee-col-3,
+		.bee-row-3 .bee-col-1,
+		.bee-row-5 .bee-col-1,
+		.bee-row-5 .bee-col-2,
+		.bee-row-5 .bee-col-3,
+		.bee-row-7 .bee-col-1,
+		.bee-row-7 .bee-col-2,
+		.bee-row-7 .bee-col-3,
+		.bee-row-8 .bee-col-1,
+		.bee-row-9 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-4 .bee-row-content {
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 60px
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1 {
+			padding: 10px 10px 15px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 {
+			padding: 5px 10px 10px
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3,
+		.bee-row-4 .bee-col-1 .bee-block-4,
+		.bee-row-4 .bee-col-1 .bee-block-5 {
+			color: #000000;
+			font-family: inherit;
+			font-size: 18px;
+			font-weight: 400;
+			padding: 5px;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-6 {
+			padding: 20px 10px 10px;
+			text-align: left
+		}
+
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8 {
+			background-color: #edf4fe
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-2,
+		.bee-row-7 .bee-col-2 .bee-block-2 {
+			color: #000000;
+			font-family: inherit;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-3,
+		.bee-row-7 .bee-col-2 .bee-block-3 {
+			padding: 10px 10px 5px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li,
+		.bee-row-5 .bee-col-2 .bee-block-4,
+		.bee-row-7 .bee-col-2 .bee-block-4 {
+			padding: 15px
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-5,
+		.bee-row-7 .bee-col-2 .bee-block-5 {
+			padding: 10px 10px 35px;
+			text-align: center
+		}
+
+		.bee-row-6 .bee-row-content {
+			border-radius: 9px;
+			color: #000000;
+			padding-bottom: 15px;
+			padding-top: 15px
+		}
+
+		.bee-row-6 .bee-col-1,
+		.bee-row-6 .bee-col-2,
+		.bee-row-6 .bee-col-3,
+		.bee-row-6 .bee-col-4 {
+			background-color: #ffffff;
+			padding: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 15px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-2 .bee-block-1,
+		.bee-row-6 .bee-col-3 .bee-block-1,
+		.bee-row-6 .bee-col-4 .bee-block-1 {
+			padding: 25px 10px 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-2 .bee-block-2,
+		.bee-row-6 .bee-col-3 .bee-block-2,
+		.bee-row-6 .bee-col-4 .bee-block-2 {
+			padding: 5px 10px 25px
+		}
+
+		.bee-row-10,
+		.bee-row-9 {
+			background-color: #000000
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-1 {
+			padding-left: 10px;
+			width: 100%
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 {
+			padding: 10px 10px 10px 15px
+		}
+
+		.bee-row-10 .bee-col-3 {
+			background-color: #000000;
+			border-bottom: 0 solid #000000;
+			border-left: 0 solid #000000;
+			border-right: 0px solid #000000;
+			border-top: 0 solid #000000;
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-10 .bee-col-3 .bee-block-1 {
+			padding-right: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-11 {
+			background-color: #ffffff
+		}
+
+		.bee-row-11 .bee-row-content {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 {
+			color: #1e0e4b;
+			font-family: Inter, sans-serif;
+			font-size: 15px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-2 {
+			color: #000000;
+			direction: ltr;
+			font-size: 22px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-2 a {
+			color: transparent
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-2 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-4 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-5 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-6 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-3 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-4 .bee-block-2 p:not(:last-child),
+		.bee-row-7 .bee-col-2 .bee-block-4 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 h1 {
+			color: #ff0000;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 58px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li a {
+			color: #101112
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-3 a {
+			background-color: #bababa;
+			border-bottom: 1px solid #ff0000;
+			border-left: 1px solid #ff0000;
+			border-radius: 5px;
+			border-right: 1px solid #ff0000;
+			border-top: 1px solid #ff0000;
+			color: #ff0000;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 35px;
+			width: auto
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-image,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-image,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-image,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-image,
+		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon-image {
+			padding: 5px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content {
+			margin-left: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label a,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label a,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label a,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-label a,
+		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon-label a {
+			color: #000000
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 a,
+		.bee-row-5 .bee-col-2 .bee-block-4 a,
+		.bee-row-6 .bee-col-1 .bee-block-2 a,
+		.bee-row-6 .bee-col-2 .bee-block-2 a,
+		.bee-row-6 .bee-col-3 .bee-block-2 a,
+		.bee-row-6 .bee-col-4 .bee-block-2 a,
+		.bee-row-7 .bee-col-2 .bee-block-4 a {
+			color: #8a3b8f
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-6 a,
+		.bee-row-5 .bee-col-2 .bee-block-5 a,
+		.bee-row-7 .bee-col-2 .bee-block-5 a {
+			background-color: #005ae2;
+			border-bottom: 1px solid #005ae2;
+			border-left: 1px solid #005ae2;
+			border-radius: 4px;
+			border-right: 1px solid #005ae2;
+			border-top: 1px solid #005ae2;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: auto
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-3 h2,
+		.bee-row-7 .bee-col-2 .bee-block-3 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 h2,
+		.bee-row-6 .bee-col-2 .bee-block-1 h2,
+		.bee-row-6 .bee-col-3 .bee-block-1 h2,
+		.bee-row-6 .bee-col-4 .bee-block-1 h2 {
+			color: #111827;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 18px;
+			font-weight: 600;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-2 .bee-block-2,
+		.bee-row-6 .bee-col-3 .bee-block-2,
+		.bee-row-6 .bee-col-4 .bee-block-2 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-4,
+		.bee-row-7 .bee-col-2 .bee-block-4 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2,
+		.bee-row-10 .bee-col-3 .bee-block-2 {
+			color: #ffffff;
+			direction: ltr;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%
+		}
+
+		.bee-row-7 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 {
+			font-size: 16px;
+			text-align: left
+		}
+
+		.bee-row-10 .bee-col-3 .bee-block-1 h1 {
+			color: #ff0000;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 23px;
+			font-weight: 700;
+			letter-spacing: 2px;
+			line-height: 100%;
+			text-align: right
+		}
+
+		@media (max-width:768px) {
+			.bee-menu ul.with-bee-hamburger {
+				display: none;
+				padding: 5px 0;
+				position: relative;
+				top: -4px
+			}
+
+			.bee-menu ul.with-bee-hamburger li {
+				display: block;
+				text-align: center
+			}
+
+			.bee-menu ul.with-bee-hamburger li a {
+				text-decoration: none
+			}
+
+			.bee-menu ul.with-bee-hamburger span {
+				display: none
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~ul,
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+
+			.bee-row-2 .bee-col-2 {
+				padding: 5px 0 0 !important
+			}
+
+			.bee-row-2 .bee-col-3 {
+				padding: 0 !important
+			}
+
+			.bee-row-4 .bee-row-content {
+				padding: 0 0 15px !important
+			}
+
+			.bee-row-4 .bee-col-1 {
+				padding: 5px 10px !important
+			}
+
+			.bee-row-4 .bee-col-3 {
+				padding: 5px 0 !important
+			}
+
+			.bee-row-6 .bee-row-content {
+				padding: 15px 20px !important
+			}
+
+			.bee-row-6 .bee-col-1,
+			.bee-row-6 .bee-col-2,
+			.bee-row-6 .bee-col-3 {
+				margin-bottom: 10px !important
+			}
+
+			.bee-row-2 .bee-col-2 .bee-block-2 {
+				font-size: 20px !important
+			}
+
+			.bee-row-2 .bee-col-2 .bee-block-1 h1 {
+				font-size: 42px
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
+				width: 36px;
+				height: 36px;
+				background-color: #101112;
+				border-radius: 0
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span {
+				width: 18px;
+				height: 18px
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-open {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
+				transform: translate(-50%, -50%) scaleY(1)
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-close {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
+				transform: translate(-50%, -50%) scaleY(0)
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger {
+				background-color: #101112
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li,
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li a {
+				color: #ffffff
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-open {
+				transform: translate(-50%, -50%) scaleY(0)
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-close {
+				transform: translate(-50%, -50%) scaleY(1)
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-1 h2,
+			.bee-row-5 .bee-col-2 .bee-block-3 h2,
+			.bee-row-7 .bee-col-2 .bee-block-3 h2 {
+				font-size: 36px
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label,
+			.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label,
+			.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label {
+				font-size: 14px !important;
+				text-align: center
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-2,
+			.bee-row-5 .bee-col-2 .bee-block-4,
+			.bee-row-7 .bee-col-2 .bee-block-4 {
+				font-size: 16px !important
+			}
+
+			.bee-row-7 .bee-col-2 .bee-block-1 {
+				height: 30px !important
+			}
+
+			.bee-row-8 .bee-col-1 .bee-block-1 {
+				height: 25px !important
+			}
+		}
+
+		.bee-row-10 .bee-col-3 .bee-block-2 {
+			padding-right: 10px;
+			font-size: 16px;
+			text-align: right
+		}
+
+		.bee-row-10 .bee-col-3 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 0
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon-label a {
+			color: #1e0e4b
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content no_stack">
+				<div class="bee-col bee-col-1 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="company logo" class="bee-fixedwidth" src="images/3_1.png" style="max-width:128px;" title="company logo" /></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-menu">
+						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-menu-r0c1m0" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-menu-r0c1m0"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
+							<ul class="bee-horizontal with-bee-hamburger">
+								<li><a href="#module_239c9d78-a63e-4242-92ff-4d3ae31c3655" target="_self" title="">About</a></li>
+								<li><a href="#module_5aff6314-c1be-4519-af39-6afb01d7735b" target="_self" title="">How it works?</a></li>
+								<li><a href="https:/bricksense.streamlit.app" target="_self" title="">Try BrickSense</a></li>
+								<li><a href="#module_4fbb2b6e-59c7-4714-8c20-93db383daea6" target="_self" title="">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-heading" id="module_44d5d9e5-41f4-4a8c-9fb2-29a32f3c3b4a">
+						<h1><span class="tinyMce-placeholder">BRICK SENSE</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p><span style="color: #000000;"><a href="http://[subscribelink]/" rel="noopener" style="color: #000000;" target="_blank">An AI-powered tool that helps <strong>builders, engineers, and suppliers</strong> quickly assess brick quality and wall conditions without complicated lab tests.</a> </span></p>
+					</div>
+					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">TRY NOW</span></a></div>
+					<div class="bee-block bee-block-4 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="images/4_faec6871-8d19-496f-89f1-7e9291e0f315.png" style="max-width:320px;" title="" /></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:35px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-heading" id="module_239c9d78-a63e-4242-92ff-4d3ae31c3655">
+						<h2><span class="tinyMce-placeholder">Smart Brick &amp; Wall Quality Inspection</span> </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>A<strong> smart tool for construction quality control</strong>, reducing manual testing and speeding up brick inspection.</p>
+					</div>
+					<div class="bee-block bee-block-3 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Saves time and cost compared to manual testing.</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-4 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Ensures construction quality and durability.</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_check_list.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Helps in making quick decisions about material use.</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">See What's new</span></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Bank App Expenses" class="bee-center bee-fixedwidth" src="images/6_Pitch_Deck_-_Brick_Sense_1.png" style="max-width:288px;" title="Bank App Expenses" /></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="images/7_security.png" width="auto" /></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2>Smart Bricks - Safe Builds </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Ensure every brick meets the highest standards with smart, instant quality checks. BrickSense ensures your projects are built on reliable, tested materials.</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button" id="module_5aff6314-c1be-4519-af39-6afb01d7735b"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Try BrickSense</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
+			<div class="bee-row-content" style="gap:10px;">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Brick Classification </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Automatically identifies if a brick is 1st, 2nd, or 3rd class based on quality.</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Defect Detection </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Detects cracks, chips, and other defects in bricks or walls.</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Property Prediction </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Estimates important properties like absorption or strength</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Easy to Use </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>You're protected from unauthorized transactions</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-7">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="images/8_trusted.png" width="auto" /></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2>Trusted by Millions </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Join millions of satisfied customers who trust us with their construction</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Use BrickSense</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:75px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><a href="#module_44d5d9e5-41f4-4a8c-9fb2-29a32f3c3b4a" target="_self"><img alt="" class="bee-fixedwidth" src="images/9_2.png" style="max-width:149px;border-radius:0px 0px 0px 0px;" title="" /></a></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>© Brick Sense - All rights reserved</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">BRICK SENSE</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph" id="module_4fbb2b6e-59c7-4714-8c20-93db383daea6">
+						<p><span style="font-family: inherit;">CUST, Islamabad, Pakistan</span></p>
+						<p>Tel: 92-51-111-555-666-422</p>
+						<p>Email: talha.tahir@cust.edu.pk</p>
+					</div>
+					<div class="bee-block bee-block-3 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree"><img alt="Beefree Logo" height="32px" src="images/10_Beefree-logo.png" width="auto" /></a></div>
+								<div class="bee-icon-label bee-icon-label-right"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree">Designed with Beefree</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
