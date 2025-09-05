@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title></title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:url" />
+	<meta content="images/1_13316815_large.jpg" property="og:image" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css" />
+	<style>
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		.bee-button-content {
+			text-align: center
+		}
+
+		.bee-menu .bee-hamburger-controls span,
+		.bee-row-1,
+		.bee-row-2,
+		.bee-row-2 .bee-row-content,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-4 .bee-row-content,
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-6 .bee-row-content,
+		.bee-row-7,
+		.bee-row-8 {
+			background-repeat: no-repeat
+		}
+
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif
+		}
+
+		a {
+			color: #7747FF
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		h2,
+		p {
+			margin: 0
+		}
+
+		.bee-menu .bee-hamburger-trigger {
+			display: none
+		}
+
+		.bee-row-content {
+			max-width: 1270px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content.reverse,
+		.bee-row-content.reverse .bee-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-row-content .bee-col-w1 {
+			flex-basis: 8.3333333333%
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w5 {
+			flex-basis: 41.6666666667%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-button a,
+		.bee-icon .bee-icon-label-right a,
+		.bee-menu ul li a {
+			text-decoration: none
+		}
+
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 h1,
+		.bee-row-2 .bee-col-2 .bee-block-2 h1 {
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%
+		}
+
+		.bee-icon {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-content {
+			display: flex;
+			align-items: center
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-menu .bee-hamburger-controls {
+			cursor: pointer;
+			display: inline-block;
+			position: relative
+		}
+
+		.bee-menu .bee-hamburger-controls span {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-size: 100%;
+			transition: .12s ease-in-out
+		}
+
+		.bee-menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-menu ul.bee-horizontal li {
+			display: inline-block
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-social .icon img {
+			max-height: 32px
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-5 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content,
+		.bee-row-9 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-row-1 .bee-col-1,
+		.bee-row-1 .bee-col-2,
+		.bee-row-4 .bee-col-1,
+		.bee-row-4 .bee-col-2,
+		.bee-row-4 .bee-col-3 {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-4 .bee-col-3 .bee-block-1 {
+			padding: 10px;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 {
+			color: #101112;
+			font-family: 'Fira Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size: 16px;
+			font-weight: 500;
+			padding: 10px;
+			text-align: right
+		}
+
+		.bee-row-2 {
+			background-image: url('images/2_e012f6f2-9e75-4c79-8455-5d1f448c23c5.png');
+			background-size: cover
+		}
+
+		.bee-row-2 .bee-row-content {
+			background-size: auto;
+			color: #000000;
+			padding-top: 30px
+		}
+
+		.bee-row-2 .bee-col-2 {
+			padding-top: 5px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 {
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-2 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-3 {
+			padding: 10px 10px 25px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-4 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-5 {
+			padding-top: 15px;
+			width: 100%
+		}
+
+		.bee-row-10 .bee-col-4,
+		.bee-row-11 .bee-col-1,
+		.bee-row-2 .bee-col-3,
+		.bee-row-3 .bee-col-1,
+		.bee-row-5 .bee-col-1,
+		.bee-row-5 .bee-col-2,
+		.bee-row-5 .bee-col-3,
+		.bee-row-7 .bee-col-1,
+		.bee-row-8 .bee-col-1,
+		.bee-row-8 .bee-col-2,
+		.bee-row-8 .bee-col-3,
+		.bee-row-9 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-4 .bee-row-content {
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 60px
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1 {
+			padding: 10px 10px 15px 30px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 {
+			padding: 5px 10px 10px 30px
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3,
+		.bee-row-4 .bee-col-1 .bee-block-4,
+		.bee-row-4 .bee-col-1 .bee-block-5 {
+			color: #000000;
+			font-family: inherit;
+			font-size: 18px;
+			font-weight: 400;
+			padding: 5px 5px 5px 30px;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-6 {
+			padding: 20px 10px 10px 60px;
+			text-align: left
+		}
+
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8 {
+			background-color: #d5d5d5
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-2 {
+			color: #000000;
+			font-family: inherit;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-3,
+		.bee-row-8 .bee-col-2 .bee-block-3 {
+			padding: 10px 10px 5px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li,
+		.bee-row-5 .bee-col-2 .bee-block-4,
+		.bee-row-8 .bee-col-2 .bee-block-4 {
+			padding: 15px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-4 a,
+		.bee-row-4 .bee-col-1 .bee-block-6 a,
+		.bee-row-5 .bee-col-2 .bee-block-5 a,
+		.bee-row-8 .bee-col-2 .bee-block-5 a {
+			background-color: #a6a6a6;
+			border-bottom: 1px solid transparent;
+			border-left: 1px solid transparent;
+			border-right: 1px solid transparent;
+			border-top: 1px solid transparent;
+			padding: 5px 20px;
+			width: auto;
+			direction: ltr
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-5,
+		.bee-row-8 .bee-col-2 .bee-block-5 {
+			padding: 10px 10px 35px;
+			text-align: center
+		}
+
+		.bee-row-6 .bee-row-content {
+			border-radius: 9px;
+			color: #000000;
+			padding-bottom: 15px;
+			padding-top: 15px
+		}
+
+		.bee-row-6 .bee-col-1,
+		.bee-row-6 .bee-col-2,
+		.bee-row-6 .bee-col-3,
+		.bee-row-6 .bee-col-4 {
+			background-color: #ffffff;
+			padding: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 15px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-2 .bee-block-1,
+		.bee-row-6 .bee-col-3 .bee-block-1,
+		.bee-row-6 .bee-col-4 .bee-block-1 {
+			padding: 25px 10px 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-2 .bee-block-2,
+		.bee-row-6 .bee-col-3 .bee-block-2,
+		.bee-row-6 .bee-col-4 .bee-block-2 {
+			padding: 5px 10px 25px
+		}
+
+		.bee-row-10,
+		.bee-row-9 {
+			background-color: #121722;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-11,
+		.bee-row-11 .bee-row-content {
+			background-color: #ffffff;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-10 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-bottom: 15px
+		}
+
+		.bee-row-10 .bee-col-1,
+		.bee-row-10 .bee-col-2 {
+			padding: 30px 10px 30px 20px
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-1 {
+			padding-bottom: 5px;
+			padding-left: 5px;
+			padding-right: 10px;
+			width: 100%
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-1,
+		.bee-row-10 .bee-col-3 .bee-block-1 {
+			padding-bottom: 10px
+		}
+
+		.bee-row-10 .bee-col-3 {
+			padding-bottom: 30px;
+			padding-right: 20px;
+			padding-top: 30px
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-1 {
+			padding: 10px 10px 5px 15px
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-2 {
+			color: #d1d5db;
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			padding: 5px 10px 5px 5px;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-3 {
+			padding-left: 10px;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-row-content {
+			color: #000000
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 {
+			color: #1e0e4b;
+			font-family: Inter, sans-serif;
+			font-size: 15px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-2 h1 {
+			color: #ff3131;
+			direction: ltr;
+			font-size: 58px;
+			text-align: center
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-1 li a {
+			color: #101112
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-3 {
+			color: #a6a6a6;
+			direction: ltr;
+			font-size: 22px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 a,
+		.bee-row-10 .bee-col-2 .bee-block-1 a,
+		.bee-row-10 .bee-col-3 .bee-block-1 a,
+		.bee-row-10 .bee-col-4 .bee-block-1 a,
+		.bee-row-2 .bee-col-2 .bee-block-3 a,
+		.bee-row-4 .bee-col-1 .bee-block-2 a,
+		.bee-row-5 .bee-col-2 .bee-block-4 a,
+		.bee-row-6 .bee-col-1 .bee-block-2 a,
+		.bee-row-6 .bee-col-2 .bee-block-2 a,
+		.bee-row-6 .bee-col-3 .bee-block-2 a,
+		.bee-row-6 .bee-col-4 .bee-block-2 a,
+		.bee-row-8 .bee-col-2 .bee-block-4 a {
+			color: #8a3b8f
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-1 p:not(:last-child),
+		.bee-row-10 .bee-col-3 .bee-block-1 p:not(:last-child),
+		.bee-row-10 .bee-col-4 .bee-block-1 p:not(:last-child),
+		.bee-row-2 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-4 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-5 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-6 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-3 .bee-block-2 p:not(:last-child),
+		.bee-row-6 .bee-col-4 .bee-block-2 p:not(:last-child),
+		.bee-row-8 .bee-col-2 .bee-block-4 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 h1 {
+			color: #ffffff;
+			direction: ltr;
+			font-size: 58px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-4 a {
+			border-radius: 5px;
+			color: #be1e2d;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1 h2 {
+			color: #be1e2d;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-image,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-image,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-image,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-image,
+		.bee-row-8 .bee-col-2 .bee-block-2 .bee-icon-image {
+			padding: 5px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content,
+		.bee-row-8 .bee-col-2 .bee-block-2 .bee-icon:not(.bee-icon-first) .bee-content {
+			margin-left: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label a,
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label a,
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label a,
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon-label a,
+		.bee-row-8 .bee-col-2 .bee-block-2 .bee-icon-label a {
+			color: #000000
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-6 a,
+		.bee-row-5 .bee-col-2 .bee-block-5 a,
+		.bee-row-8 .bee-col-2 .bee-block-5 a {
+			border-radius: 4px;
+			color: #be1e2d;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-4,
+		.bee-row-8 .bee-col-2 .bee-block-4 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-5 .bee-col-2 .bee-block-3 h2,
+		.bee-row-8 .bee-col-2 .bee-block-3 h2 {
+			color: #000000;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 48px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-2 .bee-block-2,
+		.bee-row-6 .bee-col-3 .bee-block-2,
+		.bee-row-6 .bee-col-4 .bee-block-2 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: left
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-1 h2,
+		.bee-row-6 .bee-col-2 .bee-block-1 h2,
+		.bee-row-6 .bee-col-3 .bee-block-1 h2,
+		.bee-row-6 .bee-col-4 .bee-block-1 h2 {
+			color: #6c6c6c;
+			direction: ltr;
+			font-family: Fira Sans, Lucida Sans Unicode, Lucida Grande, sans-serif;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-8 .bee-col-2 .bee-block-2 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 {
+			color: #d1d5db;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-10 .bee-col-1 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 1px
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-1,
+		.bee-row-10 .bee-col-3 .bee-block-1 {
+			color: #d1d5db;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-1 {
+			color: #ff3131;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-1 .bee-icon-label a {
+			color: #1e0e4b
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-2 li {
+			padding-bottom: 5px;
+			padding-left: 33px
+		}
+
+		.bee-row-10 .bee-col-4 .bee-block-2 li a {
+			color: #d1d5db
+		}
+
+		@media (max-width:768px) {
+			img.bee-fullwidthOnMobile {
+				max-width: none !important
+			}
+
+			.bee-menu ul.with-bee-hamburger {
+				display: none;
+				padding: 5px 0;
+				position: relative;
+				top: -4px
+			}
+
+			.bee-menu ul.with-bee-hamburger li {
+				display: block;
+				text-align: center
+			}
+
+			.bee-menu ul.with-bee-hamburger li a {
+				text-decoration: none
+			}
+
+			.bee-menu ul.with-bee-hamburger span {
+				display: none
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~ul,
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+
+			.bee-row-2 .bee-col-2 {
+				padding: 5px 0 0 !important
+			}
+
+			.bee-row-2 .bee-col-3 {
+				padding: 0 !important
+			}
+
+			.bee-row-4 .bee-row-content {
+				padding: 0 0 15px !important
+			}
+
+			.bee-row-4 .bee-col-1 {
+				padding: 5px 10px !important
+			}
+
+			.bee-row-4 .bee-col-3 {
+				padding: 5px 0 !important
+			}
+
+			.bee-row-6 .bee-row-content {
+				padding: 15px 20px !important
+			}
+
+			.bee-row-10 .bee-col-1 {
+				padding: 30px 20px 10px !important
+			}
+
+			.bee-row-10 .bee-col-2 {
+				padding: 10px 20px !important
+			}
+
+			.bee-row-10 .bee-col-3 {
+				padding: 10px 20px 30px !important
+			}
+
+			.bee-row-6 .bee-col-1,
+			.bee-row-6 .bee-col-2,
+			.bee-row-6 .bee-col-3 {
+				margin-bottom: 10px !important
+			}
+
+			.bee-row-2 .bee-col-2 .bee-block-1 h1,
+			.bee-row-2 .bee-col-2 .bee-block-2 h1 {
+				font-size: 42px
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
+				width: 36px;
+				height: 36px;
+				background-color: #101112;
+				border-radius: 0
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span,
+			.bee-row-10 .bee-col-4 .bee-block-2 .bee-hamburger-controls span {
+				width: 18px;
+				height: 18px
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-open,
+			.bee-row-10 .bee-col-4 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-open {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
+				transform: translate(-50%, -50%) scaleY(1)
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span.bee-hamburger-close,
+			.bee-row-10 .bee-col-4 .bee-block-2 .bee-hamburger-controls span.bee-hamburger-close {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
+				transform: translate(-50%, -50%) scaleY(0)
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger {
+				background-color: #101112
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li,
+			.bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li a,
+			.bee-row-10 .bee-col-4 .bee-block-2 ul.with-bee-hamburger li,
+			.bee-row-10 .bee-col-4 .bee-block-2 ul.with-bee-hamburger li a {
+				color: #ffffff
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-open {
+				transform: translate(-50%, -50%) scaleY(0)
+			}
+
+			#bee-hamburger-menu-r0c1m0:checked~.bee-hamburger-controls .bee-hamburger-close {
+				transform: translate(-50%, -50%) scaleY(1)
+			}
+
+			.bee-row-2 .bee-col-2 .bee-block-3 {
+				font-size: 20px !important
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-1 h2,
+			.bee-row-5 .bee-col-2 .bee-block-3 h2,
+			.bee-row-8 .bee-col-2 .bee-block-3 h2 {
+				font-size: 36px
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-3 .bee-icon-label,
+			.bee-row-4 .bee-col-1 .bee-block-4 .bee-icon-label,
+			.bee-row-4 .bee-col-1 .bee-block-5 .bee-icon-label {
+				font-size: 14px !important;
+				text-align: center
+			}
+
+			.bee-row-4 .bee-col-1 .bee-block-2,
+			.bee-row-5 .bee-col-2 .bee-block-4,
+			.bee-row-8 .bee-col-2 .bee-block-4 {
+				font-size: 16px !important
+			}
+
+			.bee-row-8 .bee-col-2 .bee-block-1 {
+				height: 30px !important
+			}
+
+			.bee-row-10 .bee-col-4 .bee-block-2,
+			.bee-row-10 .bee-col-4 .bee-block-3 {
+				text-align: left !important
+			}
+
+			.bee-row-10 .bee-col-4 .bee-block-2 .bee-hamburger-controls {
+				width: 36px;
+				height: 36px;
+				background-color: #7747ff;
+				border-radius: 0
+			}
+
+			.bee-row-10 .bee-col-4 .bee-block-2 ul.with-bee-hamburger {
+				background-color: #7747ff
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content no_stack">
+				<div class="bee-col bee-col-1 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image" id="logo_top"><a href="www.example.com" target="_blank"><img alt="company logo" class="bee-fixedwidth" src="images/3_9_2.png" style="max-width:127px;" title="company logo" /></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-menu">
+						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-menu-r0c1m0" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-menu-r0c1m0"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
+							<ul class="bee-horizontal with-bee-hamburger">
+								<li><a href="#logo_top" target="_self" title="Top">Home</a></li>
+								<li><a href="#howitworks" target="_self" title="">About</a></li>
+								<li><a href="#howitworks" target="_self" title="">How it works?</a></li>
+								<li><a href="#features" target="_self" title="">Features</a></li>
+								<li><a href="#socials" target="_self" title="">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Every Brick Counts</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">BRICK SENSE</span> </h1>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>An AI-powered tool that helps <strong>builders, engineers, and suppliers</strong> quickly assess brick quality and wall conditions without complicated lab tests.</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="https://bricksense.streamlit.app" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Explore Services</span></a></div>
+					<div class="bee-block bee-block-5 bee-image"><a href="https://bricksense.streamlit.app" target="_blank"><img alt="Bank App main screen" class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="images/4_4_faec6871-8d19-496f-89f1-7e9291e0f315.png" style="max-width:381px;" title="Bank App main screen" /></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer" id="howitworks">
+						<div class="spacer" style="height:35px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content reverse">
+				<div class="bee-col bee-col-1 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Smart Brick &amp; Wall Quality Inspection </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>A<strong> smart tool for construction quality control</strong>, reducing manual testing and speeding up brick inspection.</p>
+					</div>
+					<div class="bee-block bee-block-3 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_5_3.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Saves time and cost</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-4 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_5_3.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Ensures quality &amp; durability</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><img alt="check mark" height="16px" src="images/5_5_3.png" width="auto" /></div>
+								<div class="bee-icon-label bee-icon-label-right">Instant decision making</div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.exampl.ecom" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">See What's new</span></a></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><a href="www.example.com" target="_blank"><img alt="Bank App Expenses" class="bee-center bee-fixedwidth" src="images/6_Check_Brick_Quality_2.png" style="max-width:508px;" title="Bank App Expenses" /></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer" id="features">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="images/7_7_4.png" width="auto" /></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2>Smart Bricks - Safe Builds </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Bank with confidence knowing your accounts are protected by industry-leading security measures and continuous monitoring.</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="https://bricksense.streamlit.app" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Try BrickSense</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
+			<div class="bee-row-content" style="gap:10px;">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Brick Classification </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Automatically identifies brick class based on quality</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Defect Detection </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Detects cracks, chips, and other defects in bricks or walls</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Property Prediction </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Estimates important properties like absorption or strength</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h2>Easy to Use </h2>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Just upload a photo of your brick or wall and get results in seconds.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-7">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:50px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="www.example.com" target="_self"><img alt="Security" height="48px" src="images/7_7_4.png" width="auto" /></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="bee-block bee-block-3 bee-heading">
+						<h2><span class="tinyMce-placeholder">Built on Trust</span> </h2>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p>Built on Thousands of Bricks Tested for Accuracy You Can Trust. Your Partner for Smarter, Safer Construction. Building Confidence, One Project at a Time.</p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="https://bricksense.streamlit.app" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Check BrickSense</span></a></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:1px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:25px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><a href="#logo_top" target="_self"><img alt="Company logo" class="bee-center bee-fixedwidth" src="images/3_9_2.png" style="max-width:115px;" title="Company logo" /></a></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>© 2025 Brick Sense</p>
+						<p> All rights reserved</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph"></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph"></div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>BRICK SENSE</p>
+					</div>
+					<div class="bee-block bee-block-2 bee-menu">
+						<nav class="bee-menu">
+							<ul class="bee-horizontal">
+								<li><a href="mailto:talha.tahir@gmail.com?subject=Enquiry from BrickSense&amp;body=" target="_self" title="Email">Email Us</a></li>
+								<li><a href="tel:9251111555666422" target="_self" title="Office Tel">Help center</a></li>
+								<li><a href="www.cust.edu.pk" target="_blank" title="website">Visit Us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="bee-block bee-block-3 bee-social" id="socials">
+						<div class="content"><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com/" target="_self"><img alt="facebook" src="images/8_facebook2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.twitter.com/" target="_self"><img alt="twitter" src="images/9_twitter2x.png" title="twitter" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.linkedin.com/" target="_self"><img alt="linkedin" src="images/10_linkedin2x.png" title="linkedin" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com/" target="_self"><img alt="instagram" src="images/11_instagram2x.png" title="instagram" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.tiktok.com" target="_blank"><img alt="TikTok" src="images/12_tiktok2x.png" title="TikTok" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.whatsapp.com" target="_blank"><img alt="WhatsApp" src="images/13_whatsapp2x.png" title="WhatsApp" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.youtube.com/" target="_blank"><img alt="YouTube" src="images/14_youtube2x.png" title="YouTube" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.threads.net" target="_blank"><img alt="Threads" src="images/15_threads2x.png" title="Threads" /></a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							<div class="bee-content">
+								<div class="bee-icon-image"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree"><img alt="Beefree Logo" height="32px" src="images/16_Beefree-logo.png" width="auto" /></a></div>
+								<div class="bee-icon-label bee-icon-label-right"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree">Designed with Beefree</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
