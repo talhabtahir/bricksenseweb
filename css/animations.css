@@ -40,29 +40,4 @@
   .bee-row-content { flex-wrap: wrap; text-align: center; }
   .bee-image img { max-width: 90% !important; }
 }
-/* Add this to css/animations.css */
-#main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    z-index: 999;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: none;
-}
 
-#main-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-#main-header nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-}
