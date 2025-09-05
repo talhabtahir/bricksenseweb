@@ -22,7 +22,7 @@
 
 /* Buttons */
 .bee-button-content {
-  background: linear-gradient(135deg, #ff3131, #be1e2d);
+  background: linear-gradient(135deg, #d5d5d5, #a6a6a6);
   color: #fff !important;
   padding: 12px 24px;
   border-radius: 8px;
@@ -40,4 +40,8 @@
   .bee-row-content { flex-wrap: wrap; text-align: center; }
   .bee-image img { max-width: 90% !important; }
 }
-
+/* Footer logo */
+.footer-logo img {
+    max-width: 100px; /* or whatever size you had */
+    height: auto;
+}
